@@ -1,0 +1,11 @@
+framework module PEDevicePaymentSDK {
+  umbrella header "PEDevicePaymentSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module PEDevicePaymentSDK.Swift {
+  header "PEDevicePaymentSDK-Swift.h"
+  requires objc
+}
