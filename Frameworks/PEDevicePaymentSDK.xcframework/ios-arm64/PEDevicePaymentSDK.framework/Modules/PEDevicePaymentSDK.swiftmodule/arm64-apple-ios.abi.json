@@ -977,14 +977,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDeviceDelegate(im)didStartTransaction:",
-            "mangledName": "$s18PEDevicePaymentSDK0A8DelegateP19didStartTransactionyyAA0B11RequestDataCF",
+            "mangledName": "$s18PEDevicePaymentSDK0A8DelegateP19didStartTransactionyyAA16PEPaymentRequestCF",
             "moduleName": "PEDevicePaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDeviceDelegate>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
@@ -1008,14 +1008,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDeviceDelegate(im)didStartAuthorization:",
-            "mangledName": "$s18PEDevicePaymentSDK0A8DelegateP21didStartAuthorizationyyAA0B11RequestDataCF",
+            "mangledName": "$s18PEDevicePaymentSDK0A8DelegateP21didStartAuthorizationyyAA16PEPaymentRequestCF",
             "moduleName": "PEDevicePaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDeviceDelegate>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
@@ -1376,6 +1376,315 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEPaymentRequest",
+        "printedName": "PEPaymentRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "transactionAmount",
+            "printedName": "transactionAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmountSo9NSDecimalavp",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmountSo9NSDecimalavp",
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmountSo9NSDecimalavg",
+                "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmountSo9NSDecimalavg",
+                "moduleName": "PEDevicePaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currencyCode",
+            "printedName": "currencyCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC12currencyCodeSSvp",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC12currencyCodeSSvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC12currencyCodeSSvg",
+                "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC12currencyCodeSSvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transactionAmount:currencyCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmount12currencyCodeACSo9NSDecimala_SStcfc",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmount12currencyCodeACSo9NSDecimala_SStcfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest(im)init",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestCACycfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC6encode2toys7Encoder_p_tKF",
+            "moduleName": "PEDevicePaymentSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest",
+        "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -2682,12 +2991,18 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(id:idType:mode:delegate:)",
+            "printedName": "initialize(license:id:idType:mode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -2723,8 +3038,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)initializeWithId:idType:mode:delegate:",
-            "mangledName": "$s18PEDevicePaymentSDK0A0P10initialize2id0E4Type4mode8delegateySSSg_AA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)initializeWithLicense:id:idType:mode:delegate:",
+            "mangledName": "$s18PEDevicePaymentSDK0A0P10initialize7license2id0F4Type4mode8delegateySS_SSSgAA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
             "moduleName": "PEDevicePaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDevice>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDevice>",
@@ -2779,14 +3094,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)startTransactionWithRequest:",
-            "mangledName": "$s18PEDevicePaymentSDK0A0P16startTransaction7requestyAA0B11RequestDataC_tF",
+            "mangledName": "$s18PEDevicePaymentSDK0A0P16startTransaction7requestyAA16PEPaymentRequestC_tF",
             "moduleName": "PEDevicePaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDevice>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDevice>",
@@ -3259,8 +3574,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "socketURL",
-            "printedName": "socketURL",
+            "name": "socketHostname",
+            "printedName": "socketHostname",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3270,8 +3585,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(py)socketURL",
-            "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP9socketURLSSvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(py)socketHostname",
+            "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP14socketHostnameSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
@@ -3291,8 +3606,56 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(im)socketURL",
-                "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP9socketURLSSvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(im)socketHostname",
+                "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP14socketHostnameSSvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.IPEEnvironment>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.IPEEnvironment>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiHostname",
+            "printedName": "apiHostname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(py)apiHostname",
+            "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP11apiHostnameSSvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(im)apiHostname",
+                "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP11apiHostnameSSvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.IPEEnvironment>",
                 "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.IPEEnvironment>",
@@ -4156,262 +4519,6 @@
                 "declAttributes": [
                   "Final",
                   "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "SaleResponse",
-            "printedName": "SaleResponse",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentResultDataResponse",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                    "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B10ResultDataC12SaleResponseAA0bdeG0CSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC12SaleResponseAA0bdeG0CSgvp",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentResultDataResponse",
-                        "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                        "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B10ResultDataC12SaleResponseAA0bdeG0CSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC12SaleResponseAA0bdeG0CSgvg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "ReturnResponse",
-            "printedName": "ReturnResponse",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentResultDataResponse",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                    "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B10ResultDataC14ReturnResponseAA0bdeG0CSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC14ReturnResponseAA0bdeG0CSgvp",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentResultDataResponse",
-                        "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                        "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B10ResultDataC14ReturnResponseAA0bdeG0CSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC14ReturnResponseAA0bdeG0CSgvg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "VoidResponse",
-            "printedName": "VoidResponse",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentResultDataResponse",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                    "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B10ResultDataC12VoidResponseAA0bdeG0CSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC12VoidResponseAA0bdeG0CSgvp",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentResultDataResponse",
-                        "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                        "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B10ResultDataC12VoidResponseAA0bdeG0CSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC12VoidResponseAA0bdeG0CSgvg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "BalanceResponse",
-            "printedName": "BalanceResponse",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentResultDataResponse",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                    "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B10ResultDataC15BalanceResponseAA0bdeG0CSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC15BalanceResponseAA0bdeG0CSgvp",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentResultDataResponse",
-                        "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                        "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B10ResultDataC15BalanceResponseAA0bdeG0CSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B10ResultDataC15BalanceResponseAA0bdeG0CSgvg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -5706,6 +5813,13 @@
       },
       {
         "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5715,311 +5829,13 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "PaymentRequestData",
-        "printedName": "PaymentRequestData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "transactionAmount",
-            "printedName": "transactionAmount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Decimal",
-                "printedName": "Foundation.Decimal",
-                "usr": "c:@SA@NSDecimal"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestDataC17transactionAmountSo9NSDecimalavp",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC17transactionAmountSo9NSDecimalavp",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Decimal",
-                    "printedName": "Foundation.Decimal",
-                    "usr": "c:@SA@NSDecimal"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B11RequestDataC17transactionAmountSo9NSDecimalavg",
-                "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC17transactionAmountSo9NSDecimalavg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "currencyCode",
-            "printedName": "currencyCode",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestDataC12currencyCodeSSvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC12currencyCodeSSvp",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B11RequestDataC12currencyCodeSSvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC12currencyCodeSSvg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(transactionAmount:currencyCode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decimal",
-                "printedName": "Foundation.Decimal",
-                "usr": "c:@SA@NSDecimal"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestDataC17transactionAmount12currencyCodeACSo9NSDecimala_SStcfc",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC17transactionAmount12currencyCodeACSo9NSDecimala_SStcfc",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData(im)init",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataCACycfc",
-            "moduleName": "PEDevicePaymentSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestDataC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "PEDevicePaymentSDK",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestDataC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC6encode2toys7Encoder_p_tKF",
-            "moduleName": "PEDevicePaymentSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData",
-        "mangledName": "$s18PEDevicePaymentSDK0B11RequestDataC",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "RawDocComment"
         ]
       },
       {
@@ -7835,6 +7651,84 @@
         "children": [
           {
             "kind": "Var",
+            "name": "transactionType",
+            "printedName": "transactionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PETransactionType",
+                "printedName": "PEDevicePaymentSDK.PETransactionType",
+                "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)transactionType",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP15transactionTypeAA013PETransactionG0Ovp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)transactionType",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP15transactionTypeAA013PETransactionG0Ovg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)setTransactionType:",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP15transactionTypeAA013PETransactionG0Ovs",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isSuccess",
             "printedName": "isSuccess",
             "children": [
@@ -7883,27 +7777,27 @@
           },
           {
             "kind": "Var",
-            "name": "data",
-            "printedName": "data",
+            "name": "transactionId",
+            "printedName": "transactionId",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PaymentResultData?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentResultData",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultData",
-                    "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultData"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)data",
-            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP4dataAA0bE4DataCSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)transactionId",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP13transactionIdSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
@@ -7918,21 +7812,277 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PEDevicePaymentSDK.PaymentResultData?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentResultData",
-                        "printedName": "PEDevicePaymentSDK.PaymentResultData",
-                        "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultData"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)data",
-                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP4dataAA0bE4DataCSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)transactionId",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP13transactionIdSSSgvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseCode",
+            "printedName": "responseCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)responseCode",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP12responseCodeSSSgvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)responseCode",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP12responseCodeSSSgvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseMessage",
+            "printedName": "responseMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)responseMessage",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP15responseMessageSSSgvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)responseMessage",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP15responseMessageSSSgvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)amount",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP6amountSSSgvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)amount",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP6amountSSSgvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currencyCode",
+            "printedName": "currencyCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)currencyCode",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP12currencyCodeSSSgvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)currencyCode",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP12currencyCodeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
                 "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
@@ -7971,6 +8121,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -8850,12 +9001,18 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(id:idType:mode:delegate:)",
+            "printedName": "initialize(license:id:idType:mode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -8892,10 +9049,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)initializeWithId:idType:mode:delegate:",
-            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC10initialize2id0G4Type4mode8delegateySSSg_AA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)initializeWithLicense:id:idType:mode:delegate:",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC10initialize7license2id0H4Type4mode8delegateySS_SSSgAA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
             "moduleName": "PEDevicePaymentSDK",
-            "objc_name": "initializeWithId:idType:mode:delegate:",
+            "objc_name": "initializeWithLicense:id:idType:mode:delegate:",
             "declAttributes": [
               "ObjC",
               "AccessControl",
@@ -9034,14 +9191,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestData",
-                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentRequestData"
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)startTransactionWithRequest:",
-            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC16startTransaction7requestyAA0B11RequestDataC_tF",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC16startTransaction7requestyAA0D7RequestC_tF",
             "moduleName": "PEDevicePaymentSDK",
             "objc_name": "startTransactionWithRequest:",
             "declAttributes": [
@@ -9396,8 +9553,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PaymentRequestType",
-        "printedName": "PaymentRequestType",
+        "name": "PETransactionType",
+        "printedName": "PETransactionType",
         "children": [
           {
             "kind": "Var",
@@ -9407,24 +9564,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PaymentRequestType.Type) -> PEDevicePaymentSDK.PaymentRequestType",
+                "printedName": "(PEDevicePaymentSDK.PETransactionType.Type) -> PEDevicePaymentSDK.PETransactionType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentRequestType",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType.Type",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentRequestType",
-                        "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                        "name": "PETransactionType",
+                        "printedName": "PEDevicePaymentSDK.PETransactionType",
+                        "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                       }
                     ]
                   }
@@ -9432,8 +9589,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType@PaymentRequestTypeSALE",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO4SALEyA2CmF",
+            "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType@PETransactionTypeSALE",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO4SALEyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "ObjC"
@@ -9448,24 +9605,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PaymentRequestType.Type) -> PEDevicePaymentSDK.PaymentRequestType",
+                "printedName": "(PEDevicePaymentSDK.PETransactionType.Type) -> PEDevicePaymentSDK.PETransactionType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentRequestType",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType.Type",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentRequestType",
-                        "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                        "name": "PETransactionType",
+                        "printedName": "PEDevicePaymentSDK.PETransactionType",
+                        "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                       }
                     ]
                   }
@@ -9473,8 +9630,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType@PaymentRequestTypeREFUND",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO6REFUNDyA2CmF",
+            "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType@PETransactionTypeREFUND",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO6REFUNDyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "ObjC"
@@ -9489,24 +9646,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PaymentRequestType.Type) -> PEDevicePaymentSDK.PaymentRequestType",
+                "printedName": "(PEDevicePaymentSDK.PETransactionType.Type) -> PEDevicePaymentSDK.PETransactionType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentRequestType",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType.Type",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentRequestType",
-                        "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                        "name": "PETransactionType",
+                        "printedName": "PEDevicePaymentSDK.PETransactionType",
+                        "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                       }
                     ]
                   }
@@ -9514,8 +9671,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType@PaymentRequestTypeVOID",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO4VOIDyA2CmF",
+            "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType@PETransactionTypeVOID",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO4VOIDyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "ObjC"
@@ -9530,24 +9687,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PaymentRequestType.Type) -> PEDevicePaymentSDK.PaymentRequestType",
+                "printedName": "(PEDevicePaymentSDK.PETransactionType.Type) -> PEDevicePaymentSDK.PETransactionType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentRequestType",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType.Type",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentRequestType",
-                        "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                        "name": "PETransactionType",
+                        "printedName": "PEDevicePaymentSDK.PETransactionType",
+                        "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                       }
                     ]
                   }
@@ -9555,8 +9712,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType@PaymentRequestTypeVERIFICATION",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO12VERIFICATIONyA2CmF",
+            "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType@PETransactionTypeVERIFICATION",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO12VERIFICATIONyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "ObjC"
@@ -9571,24 +9728,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PaymentRequestType.Type) -> PEDevicePaymentSDK.PaymentRequestType",
+                "printedName": "(PEDevicePaymentSDK.PETransactionType.Type) -> PEDevicePaymentSDK.PETransactionType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentRequestType",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType.Type",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentRequestType",
-                        "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                        "name": "PETransactionType",
+                        "printedName": "PEDevicePaymentSDK.PETransactionType",
+                        "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                       }
                     ]
                   }
@@ -9596,8 +9753,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType@PaymentRequestTypeBALANCE",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO7BALANCEyA2CmF",
+            "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType@PETransactionTypeBALANCE",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO7BALANCEyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "ObjC"
@@ -9612,13 +9769,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PaymentRequestType?",
+                "printedName": "PEDevicePaymentSDK.PETransactionType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentRequestType",
-                    "printedName": "PEDevicePaymentSDK.PaymentRequestType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType"
+                    "name": "PETransactionType",
+                    "printedName": "PEDevicePaymentSDK.PETransactionType",
+                    "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
                   }
                 ],
                 "usr": "s:Sq"
@@ -9631,8 +9788,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestTypeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO8rawValueACSgSi_tcfc",
+            "usr": "s:18PEDevicePaymentSDK17PETransactionTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO8rawValueACSgSi_tcfc",
             "moduleName": "PEDevicePaymentSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -9650,8 +9807,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B11RequestTypeO8rawValueSivp",
-            "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO8rawValueSivp",
+            "usr": "s:18PEDevicePaymentSDK17PETransactionTypeO8rawValueSivp",
+            "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO8rawValueSivp",
             "moduleName": "PEDevicePaymentSDK",
             "implicit": true,
             "accessors": [
@@ -9668,8 +9825,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B11RequestTypeO8rawValueSivg",
-                "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO8rawValueSivg",
+                "usr": "s:18PEDevicePaymentSDK17PETransactionTypeO8rawValueSivg",
+                "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO8rawValueSivg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9678,8 +9835,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "c:@M@PEDevicePaymentSDK@E@PaymentRequestType",
-        "mangledName": "$s18PEDevicePaymentSDK0B11RequestTypeO",
+        "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType",
+        "mangledName": "$s18PEDevicePaymentSDK17PETransactionTypeO",
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
@@ -14782,6 +14939,13 @@
       "value": "\"cancelSaleResponse\""
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 189,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
@@ -14815,6 +14979,13 @@
       "offset": 227,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "kind": "Array",
+      "offset": 397,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
@@ -15267,16 +15438,30 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Sandbox.swift",
       "kind": "StringLiteral",
-      "offset": 183,
-      "length": 26,
-      "value": "\"https:\/\/ws.payengine.dev\""
+      "offset": 194,
+      "length": 23,
+      "value": "\"console.payengine.dev\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Sandbox.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 18,
+      "value": "\"ws.payengine.dev\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
       "kind": "StringLiteral",
-      "offset": 183,
-      "length": 25,
-      "value": "\"https:\/\/ws.payengine.co\""
+      "offset": 194,
+      "length": 22,
+      "value": "\"console.payengine.co\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 17,
+      "value": "\"ws.payengine.co\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientOption.swift",
@@ -15330,7 +15515,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 2338,
       "length": 5,
       "value": "\"USD\""
     },
@@ -15340,13 +15525,6 @@
       "offset": 293,
       "length": 5,
       "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResponse.swift",
-      "kind": "BooleanLiteral",
-      "offset": 623,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
@@ -15974,21 +16152,21 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
-      "offset": 414,
+      "offset": 428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 621,
+      "offset": 635,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
-      "offset": 793,
+      "offset": 719,
       "length": 5,
       "value": "false"
     },
@@ -16085,50 +16263,64 @@
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1411,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 1854,
+      "offset": 1981,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6601,
+      "offset": 6956,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6645,
+      "offset": 7000,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6751,
+      "offset": 7106,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6784,
+      "offset": 7139,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6811,
+      "offset": 7166,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6828,
+      "offset": 7183,
       "length": 1,
       "value": "\"\""
     },
@@ -16212,44 +16404,51 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentRequestData.swift",
       "kind": "IntegerLiteral",
-      "offset": 188,
+      "offset": 187,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentRequestData.swift",
       "kind": "IntegerLiteral",
-      "offset": 208,
+      "offset": 207,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentRequestData.swift",
       "kind": "IntegerLiteral",
-      "offset": 226,
+      "offset": 225,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentRequestData.swift",
       "kind": "IntegerLiteral",
-      "offset": 252,
+      "offset": 251,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentRequestData.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 272,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
       "kind": "StringLiteral",
-      "offset": 177,
-      "length": 42,
-      "value": "\"https:\/\/sandbox-staging-ws.payengine.dev\""
+      "offset": 188,
+      "length": 34,
+      "value": "\"sandbox-staging-ws.payengine.dev\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 34,
+      "value": "\"sandbox-staging-ws.payengine.dev\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",

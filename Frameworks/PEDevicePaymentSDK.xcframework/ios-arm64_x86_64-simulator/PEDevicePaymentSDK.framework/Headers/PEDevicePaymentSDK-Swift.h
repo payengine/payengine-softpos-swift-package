@@ -327,7 +327,8 @@ typedef SWIFT_ENUM(NSInteger, IDType, open) {
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK14IPEEnvironment_")
 @protocol IPEEnvironment
-@property (nonatomic, readonly, copy) NSString * _Nonnull socketURL;
+@property (nonatomic, readonly, copy) NSString * _Nonnull socketHostname;
+@property (nonatomic, readonly, copy) NSString * _Nonnull apiHostname;
 @end
 
 
@@ -352,7 +353,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK17PECardReaderError")
 enum TransactionMode : NSInteger;
 @protocol PEInitializationDelegate;
 @protocol PEDeviceDelegate;
-@class PaymentRequestData;
+@class PEPaymentRequest;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 @protocol PEDevice
@@ -360,15 +361,17 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 @property (nonatomic, readonly, copy) NSString * _Nullable deviceId;
 @property (nonatomic, readonly) BOOL connected;
 /// Initializes device instance
+/// \param license License string obtained from PayEngine support
+///
 /// \param id Merchant ID
 ///
 /// \param idType Merchant ID type
 ///
-/// \param deviceType Device Type
+/// \param mode Transaction mode
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 /// <code>connect</code> method’s main job is to initiate the connection between the app and chosen device type.
 /// Generally this will prepare the terminal TTP or BT/USB device to be ready for transaction processing.
 /// Connect to a device
@@ -379,7 +382,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 /// Start a new Transaction
 /// \param request Payment Request
 ///
-- (void)startTransactionWithRequest:(PaymentRequestData * _Nonnull)request;
+- (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 /// Cancel the currently active transaction
 - (void)cancelTransaction;
 /// <code>selectDevice</code> method is to select and connect to a device
@@ -436,9 +439,9 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK16PEDeviceDelegate_")
 ///
 - (void)onLcdMessage:(NSString * _Nonnull)message;
 /// <code>didStartTransaction</code> is a delegate callback to notify the delegate when a transaction request received
-- (void)didStartTransaction:(PaymentRequestData * _Nonnull)request;
+- (void)didStartTransaction:(PEPaymentRequest * _Nonnull)request;
 /// <code>didStartAuthorization</code> is a delegate callback to notify the delegate when a transaction authorization begins
-- (void)didStartAuthorization:(PaymentRequestData * _Nonnull)request;
+- (void)didStartAuthorization:(PEPaymentRequest * _Nonnull)request;
 /// <code>onTransactionCompleted</code> is a delegate callback to notify the delegate when a transaction processing is completed
 /// \param transaction Completed Transaction <code>PEPaymentResult</code>
 ///
@@ -503,6 +506,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initializes device instance
+/// \param license License string obtained from PayEngine support
+///
 /// \param id Merchant ID
 ///
 /// \param idType Merchant ID type
@@ -511,7 +516,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 - (void)connectWithDelegate:(id <PEDeviceDelegate> _Nonnull)delegate;
 /// Connect to the specific device type
 /// \param device Selected device
@@ -522,7 +527,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (void)selectDeviceWithDevice:(DiscoverableDevice * _Nonnull)device;
 - (void)selectLcdOptionWithValue:(uint8_t)value;
 /// Start new transaction
-- (void)startTransactionWithRequest:(PaymentRequestData * _Nonnull)request;
+- (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 - (void)cancelTransaction;
 @property (nonatomic, readonly, copy) NSString * _Nonnull generalDeviceId;
 /// Version Number
@@ -544,30 +549,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
-@class PaymentResultData;
 
-SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
-@protocol PEPaymentResult
-@property (nonatomic, readonly) BOOL isSuccess;
-@property (nonatomic, readonly, strong) PaymentResultData * _Nullable data;
-@property (nonatomic, readonly, strong) PECardReaderError * _Nullable error;
-@end
-
-
-SWIFT_CLASS("_TtC18PEDevicePaymentSDK18PaymentRequestData")
-@interface PaymentRequestData : NSObject
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
+@interface PEPaymentRequest : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, PaymentRequestType, open) {
-  PaymentRequestTypeSALE = 1,
-  PaymentRequestTypeREFUND = 5,
-  PaymentRequestTypeVOID = 6,
-  PaymentRequestTypeVERIFICATION = 7,
-  PaymentRequestTypeBALANCE = 8,
+enum PETransactionType : NSInteger;
+
+SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
+@protocol PEPaymentResult
+@property (nonatomic) enum PETransactionType transactionType;
+@property (nonatomic, readonly) BOOL isSuccess;
+@property (nonatomic, readonly, copy) NSString * _Nullable transactionId;
+@property (nonatomic, readonly, copy) NSString * _Nullable responseCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable responseMessage;
+@property (nonatomic, readonly, copy) NSString * _Nullable amount;
+@property (nonatomic, readonly, copy) NSString * _Nullable currencyCode;
+@property (nonatomic, readonly, strong) PECardReaderError * _Nullable error;
+@end
+
+typedef SWIFT_ENUM(NSInteger, PETransactionType, open) {
+  PETransactionTypeSALE = 1,
+  PETransactionTypeREFUND = 5,
+  PETransactionTypeVOID = 6,
+  PETransactionTypeVERIFICATION = 7,
+  PETransactionTypeBALANCE = 8,
 };
 
+@class PaymentResultData;
 
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK13PaymentResult")
 @interface PaymentResult : NSObject
@@ -940,7 +951,8 @@ typedef SWIFT_ENUM(NSInteger, IDType, open) {
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK14IPEEnvironment_")
 @protocol IPEEnvironment
-@property (nonatomic, readonly, copy) NSString * _Nonnull socketURL;
+@property (nonatomic, readonly, copy) NSString * _Nonnull socketHostname;
+@property (nonatomic, readonly, copy) NSString * _Nonnull apiHostname;
 @end
 
 
@@ -965,7 +977,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK17PECardReaderError")
 enum TransactionMode : NSInteger;
 @protocol PEInitializationDelegate;
 @protocol PEDeviceDelegate;
-@class PaymentRequestData;
+@class PEPaymentRequest;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 @protocol PEDevice
@@ -973,15 +985,17 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 @property (nonatomic, readonly, copy) NSString * _Nullable deviceId;
 @property (nonatomic, readonly) BOOL connected;
 /// Initializes device instance
+/// \param license License string obtained from PayEngine support
+///
 /// \param id Merchant ID
 ///
 /// \param idType Merchant ID type
 ///
-/// \param deviceType Device Type
+/// \param mode Transaction mode
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 /// <code>connect</code> method’s main job is to initiate the connection between the app and chosen device type.
 /// Generally this will prepare the terminal TTP or BT/USB device to be ready for transaction processing.
 /// Connect to a device
@@ -992,7 +1006,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 /// Start a new Transaction
 /// \param request Payment Request
 ///
-- (void)startTransactionWithRequest:(PaymentRequestData * _Nonnull)request;
+- (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 /// Cancel the currently active transaction
 - (void)cancelTransaction;
 /// <code>selectDevice</code> method is to select and connect to a device
@@ -1049,9 +1063,9 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK16PEDeviceDelegate_")
 ///
 - (void)onLcdMessage:(NSString * _Nonnull)message;
 /// <code>didStartTransaction</code> is a delegate callback to notify the delegate when a transaction request received
-- (void)didStartTransaction:(PaymentRequestData * _Nonnull)request;
+- (void)didStartTransaction:(PEPaymentRequest * _Nonnull)request;
 /// <code>didStartAuthorization</code> is a delegate callback to notify the delegate when a transaction authorization begins
-- (void)didStartAuthorization:(PaymentRequestData * _Nonnull)request;
+- (void)didStartAuthorization:(PEPaymentRequest * _Nonnull)request;
 /// <code>onTransactionCompleted</code> is a delegate callback to notify the delegate when a transaction processing is completed
 /// \param transaction Completed Transaction <code>PEPaymentResult</code>
 ///
@@ -1116,6 +1130,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initializes device instance
+/// \param license License string obtained from PayEngine support
+///
 /// \param id Merchant ID
 ///
 /// \param idType Merchant ID type
@@ -1124,7 +1140,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 - (void)connectWithDelegate:(id <PEDeviceDelegate> _Nonnull)delegate;
 /// Connect to the specific device type
 /// \param device Selected device
@@ -1135,7 +1151,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (void)selectDeviceWithDevice:(DiscoverableDevice * _Nonnull)device;
 - (void)selectLcdOptionWithValue:(uint8_t)value;
 /// Start new transaction
-- (void)startTransactionWithRequest:(PaymentRequestData * _Nonnull)request;
+- (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 - (void)cancelTransaction;
 @property (nonatomic, readonly, copy) NSString * _Nonnull generalDeviceId;
 /// Version Number
@@ -1157,30 +1173,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
-@class PaymentResultData;
 
-SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
-@protocol PEPaymentResult
-@property (nonatomic, readonly) BOOL isSuccess;
-@property (nonatomic, readonly, strong) PaymentResultData * _Nullable data;
-@property (nonatomic, readonly, strong) PECardReaderError * _Nullable error;
-@end
-
-
-SWIFT_CLASS("_TtC18PEDevicePaymentSDK18PaymentRequestData")
-@interface PaymentRequestData : NSObject
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
+@interface PEPaymentRequest : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, PaymentRequestType, open) {
-  PaymentRequestTypeSALE = 1,
-  PaymentRequestTypeREFUND = 5,
-  PaymentRequestTypeVOID = 6,
-  PaymentRequestTypeVERIFICATION = 7,
-  PaymentRequestTypeBALANCE = 8,
+enum PETransactionType : NSInteger;
+
+SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
+@protocol PEPaymentResult
+@property (nonatomic) enum PETransactionType transactionType;
+@property (nonatomic, readonly) BOOL isSuccess;
+@property (nonatomic, readonly, copy) NSString * _Nullable transactionId;
+@property (nonatomic, readonly, copy) NSString * _Nullable responseCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable responseMessage;
+@property (nonatomic, readonly, copy) NSString * _Nullable amount;
+@property (nonatomic, readonly, copy) NSString * _Nullable currencyCode;
+@property (nonatomic, readonly, strong) PECardReaderError * _Nullable error;
+@end
+
+typedef SWIFT_ENUM(NSInteger, PETransactionType, open) {
+  PETransactionTypeSALE = 1,
+  PETransactionTypeREFUND = 5,
+  PETransactionTypeVOID = 6,
+  PETransactionTypeVERIFICATION = 7,
+  PETransactionTypeBALANCE = 8,
 };
 
+@class PaymentResultData;
 
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK13PaymentResult")
 @interface PaymentResult : NSObject
