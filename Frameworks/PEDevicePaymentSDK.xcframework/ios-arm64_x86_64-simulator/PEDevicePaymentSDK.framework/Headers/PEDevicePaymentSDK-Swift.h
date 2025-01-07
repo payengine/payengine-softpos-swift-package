@@ -557,6 +557,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 @end
 
 enum PETransactionType : NSInteger;
+@class PaymentResultHostReport;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
 @protocol PEPaymentResult
@@ -567,6 +568,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
 @property (nonatomic, readonly, copy) NSString * _Nullable responseMessage;
 @property (nonatomic, readonly, copy) NSString * _Nullable amount;
 @property (nonatomic, readonly, copy) NSString * _Nullable currencyCode;
+@property (nonatomic, readonly, strong) PaymentResultHostReport * _Nullable hostReport;
 @property (nonatomic, readonly, strong) PECardReaderError * _Nullable error;
 @end
 
@@ -592,6 +594,30 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK17PaymentResultData")
 @property (nonatomic, readonly, copy) NSString * _Nonnull ID;
 @property (nonatomic, readonly, copy) NSString * _Nonnull MerchantID;
 @property (nonatomic, readonly, copy) NSString * _Nonnull TransactionID;
+@end
+
+
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK23PaymentResultHostReport")
+@interface PaymentResultHostReport : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull status;
+@property (nonatomic, readonly, copy) NSString * _Nonnull responseCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull responseMessage;
+@property (nonatomic, readonly, copy) NSString * _Nullable authCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable addressVerificationCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable cardHolderVerificationCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable cardType;
+@property (nonatomic, readonly, copy) NSString * _Nullable maskedCardNumber;
+@property (nonatomic, readonly, copy) NSString * _Nullable transactionTimestamp;
+@property (nonatomic, readonly, copy) NSString * _Nullable transactionID;
+@property (nonatomic, readonly, copy) NSString * _Nullable hostReferenceNumber;
+@property (nonatomic, readonly, copy) NSString * _Nonnull transactionAmount;
+@property (nonatomic, readonly, copy) NSString * _Nonnull processedAmount;
+@property (nonatomic, copy) NSString * _Nullable currencyCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable issuerResponseCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable iccARPC;
+@property (nonatomic, readonly, copy) NSString * _Nullable iccIssuerScript;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -1181,6 +1207,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 @end
 
 enum PETransactionType : NSInteger;
+@class PaymentResultHostReport;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
 @protocol PEPaymentResult
@@ -1191,6 +1218,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
 @property (nonatomic, readonly, copy) NSString * _Nullable responseMessage;
 @property (nonatomic, readonly, copy) NSString * _Nullable amount;
 @property (nonatomic, readonly, copy) NSString * _Nullable currencyCode;
+@property (nonatomic, readonly, strong) PaymentResultHostReport * _Nullable hostReport;
 @property (nonatomic, readonly, strong) PECardReaderError * _Nullable error;
 @end
 
@@ -1216,6 +1244,30 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK17PaymentResultData")
 @property (nonatomic, readonly, copy) NSString * _Nonnull ID;
 @property (nonatomic, readonly, copy) NSString * _Nonnull MerchantID;
 @property (nonatomic, readonly, copy) NSString * _Nonnull TransactionID;
+@end
+
+
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK23PaymentResultHostReport")
+@interface PaymentResultHostReport : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull status;
+@property (nonatomic, readonly, copy) NSString * _Nonnull responseCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull responseMessage;
+@property (nonatomic, readonly, copy) NSString * _Nullable authCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable addressVerificationCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable cardHolderVerificationCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable cardType;
+@property (nonatomic, readonly, copy) NSString * _Nullable maskedCardNumber;
+@property (nonatomic, readonly, copy) NSString * _Nullable transactionTimestamp;
+@property (nonatomic, readonly, copy) NSString * _Nullable transactionID;
+@property (nonatomic, readonly, copy) NSString * _Nullable hostReferenceNumber;
+@property (nonatomic, readonly, copy) NSString * _Nonnull transactionAmount;
+@property (nonatomic, readonly, copy) NSString * _Nonnull processedAmount;
+@property (nonatomic, copy) NSString * _Nullable currencyCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable issuerResponseCode;
+@property (nonatomic, readonly, copy) NSString * _Nullable iccARPC;
+@property (nonatomic, readonly, copy) NSString * _Nullable iccIssuerScript;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

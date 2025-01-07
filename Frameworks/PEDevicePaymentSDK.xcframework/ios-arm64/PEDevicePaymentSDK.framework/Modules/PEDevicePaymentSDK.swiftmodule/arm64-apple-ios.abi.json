@@ -4642,8 +4642,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PaymentResultDataResponse",
-        "printedName": "PaymentResultDataResponse",
+        "name": "PaymentResultHostReport",
+        "printedName": "PaymentResultHostReport",
         "children": [
           {
             "kind": "Var",
@@ -4658,8 +4658,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC6statusSSvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC6statusSSvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)status",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC6statusSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -4683,8 +4683,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC6statusSSvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC6statusSSvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)status",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC6statusSSvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4708,8 +4708,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC12responseCodeSSvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC12responseCodeSSvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)responseCode",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC12responseCodeSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -4733,8 +4733,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC12responseCodeSSvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC12responseCodeSSvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)responseCode",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC12responseCodeSSvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4758,8 +4758,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC15responseMessageSSvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC15responseMessageSSvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)responseMessage",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC15responseMessageSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -4783,8 +4783,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC15responseMessageSSvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC15responseMessageSSvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)responseMessage",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC15responseMessageSSvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4816,8 +4816,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC8authCodeSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC8authCodeSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)authCode",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC8authCodeSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -4849,8 +4849,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC8authCodeSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC8authCodeSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)authCode",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC8authCodeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4882,8 +4882,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC23addressVerificationCodeSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC23addressVerificationCodeSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)addressVerificationCode",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC23addressVerificationCodeSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -4915,8 +4915,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC23addressVerificationCodeSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC23addressVerificationCodeSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)addressVerificationCode",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC23addressVerificationCodeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4948,8 +4948,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC26cardHolderVerificationCodeSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC26cardHolderVerificationCodeSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)cardHolderVerificationCode",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC26cardHolderVerificationCodeSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -4981,8 +4981,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC26cardHolderVerificationCodeSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC26cardHolderVerificationCodeSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)cardHolderVerificationCode",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC26cardHolderVerificationCodeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5014,8 +5014,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC8cardTypeSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC8cardTypeSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)cardType",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC8cardTypeSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5047,8 +5047,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC8cardTypeSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC8cardTypeSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)cardType",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC8cardTypeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5080,8 +5080,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC16maskedCardNumberSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC16maskedCardNumberSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)maskedCardNumber",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC16maskedCardNumberSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5113,8 +5113,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC16maskedCardNumberSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC16maskedCardNumberSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)maskedCardNumber",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC16maskedCardNumberSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5146,8 +5146,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC20transactionTimestampSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC20transactionTimestampSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)transactionTimestamp",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC20transactionTimestampSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5179,8 +5179,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC20transactionTimestampSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC20transactionTimestampSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)transactionTimestamp",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC20transactionTimestampSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5212,8 +5212,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC13transactionIDSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC13transactionIDSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)transactionID",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC13transactionIDSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5245,8 +5245,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC13transactionIDSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC13transactionIDSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)transactionID",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC13transactionIDSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5278,8 +5278,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC19hostReferenceNumberSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC19hostReferenceNumberSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)hostReferenceNumber",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC19hostReferenceNumberSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5311,8 +5311,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC19hostReferenceNumberSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC19hostReferenceNumberSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)hostReferenceNumber",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC19hostReferenceNumberSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5336,8 +5336,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC17transactionAmountSSvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC17transactionAmountSSvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)transactionAmount",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC17transactionAmountSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5361,8 +5361,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC17transactionAmountSSvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC17transactionAmountSSvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)transactionAmount",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC17transactionAmountSSvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5386,8 +5386,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC15processedAmountSSvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC15processedAmountSSvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)processedAmount",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC15processedAmountSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5411,8 +5411,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC15processedAmountSSvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC15processedAmountSSvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)processedAmount",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC15processedAmountSSvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5444,8 +5444,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)currencyCode",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC12currencyCodeSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -5476,8 +5476,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)currencyCode",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC12currencyCodeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5511,8 +5511,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvs",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvs",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)setCurrencyCode:",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC12currencyCodeSSSgvs",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5532,8 +5532,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvM",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC12currencyCodeSSSgvM",
+                "usr": "s:18PEDevicePaymentSDK0B16ResultHostReportC12currencyCodeSSSgvM",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC12currencyCodeSSSgvM",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5561,8 +5561,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC06issuerF4CodeSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC06issuerF4CodeSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)issuerResponseCode",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC18issuerResponseCodeSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5595,8 +5595,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC06issuerF4CodeSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC06issuerF4CodeSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)issuerResponseCode",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC18issuerResponseCodeSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5628,8 +5628,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC7iccARPCSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC7iccARPCSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)iccARPC",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC7iccARPCSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5661,8 +5661,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC7iccARPCSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC7iccARPCSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)iccARPC",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC7iccARPCSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5694,8 +5694,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC15iccIssuerScriptSSSgvp",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC15iccIssuerScriptSSSgvp",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(py)iccIssuerScript",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC15iccIssuerScriptSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "Final",
@@ -5727,8 +5727,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC15iccIssuerScriptSSSgvg",
-                "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC15iccIssuerScriptSSSgvg",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)iccIssuerScript",
+                "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC15iccIssuerScriptSSSgvg",
                 "moduleName": "PEDevicePaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5746,9 +5746,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PaymentResultDataResponse",
-                "printedName": "PEDevicePaymentSDK.PaymentResultDataResponse",
-                "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC"
+                "name": "PaymentResultHostReport",
+                "printedName": "PEDevicePaymentSDK.PaymentResultHostReport",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport"
               },
               {
                 "kind": "TypeNominal",
@@ -5758,8 +5758,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:18PEDevicePaymentSDK0B16ResultHostReportC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC4fromACs7Decoder_p_tKcfc",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "AccessControl",
@@ -5767,17 +5767,55 @@
             ],
             "throwing": true,
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentResultHostReport",
+                "printedName": "PEDevicePaymentSDK.PaymentResultHostReport",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport(im)init",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportCACycfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:18PEDevicePaymentSDK0B18ResultDataResponseC",
-        "mangledName": "$s18PEDevicePaymentSDK0B18ResultDataResponseC",
+        "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport",
+        "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC",
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers"
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -5794,10 +5832,52 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -8097,6 +8177,70 @@
           },
           {
             "kind": "Var",
+            "name": "hostReport",
+            "printedName": "hostReport",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PEDevicePaymentSDK.PaymentResultHostReport?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultHostReport",
+                    "printedName": "PEDevicePaymentSDK.PaymentResultHostReport",
+                    "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(py)hostReport",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP10hostReportAA0be4HostG0CSgvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PEDevicePaymentSDK.PaymentResultHostReport?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultHostReport",
+                        "printedName": "PEDevicePaymentSDK.PaymentResultHostReport",
+                        "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PaymentResultHostReport"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEPaymentResult(im)hostReport",
+                "mangledName": "$s18PEDevicePaymentSDK15PEPaymentResultP10hostReportAA0be4HostG0CSgvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEPaymentResult>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEPaymentResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "error",
             "printedName": "error",
             "children": [
@@ -8121,7 +8265,6 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -15515,7 +15658,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
       "kind": "StringLiteral",
-      "offset": 2338,
+      "offset": 1985,
       "length": 5,
       "value": "\"USD\""
     },

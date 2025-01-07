@@ -143,7 +143,7 @@ public struct PEConfig {
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objcMembers public class PaymentResultDataResponse : Swift.Decodable {
+@objc @objcMembers public class PaymentResultHostReport : ObjectiveC.NSObject, Swift.Decodable {
   @objc final public let status: Swift.String
   @objc final public let responseCode: Swift.String
   @objc final public let responseMessage: Swift.String
@@ -212,6 +212,7 @@ extension PEDevicePaymentSDK.PEError : Foundation.LocalizedError {
   @objc var responseMessage: Swift.String? { get }
   @objc var amount: Swift.String? { get }
   @objc var currencyCode: Swift.String? { get }
+  @objc var hostReport: PEDevicePaymentSDK.PaymentResultHostReport? { get }
   @objc var error: PEDevicePaymentSDK.PECardReaderError? { get }
 }
 @_hasMissingDesignatedInitializers @objc public class PECardReaderError : ObjectiveC.NSObject, Foundation.LocalizedError {
