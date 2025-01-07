@@ -63916,7 +63916,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:isSuccess:error:)",
+            "printedName": "init(_:error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -63929,12 +63929,6 @@
                 "name": "PETransactionType",
                 "printedName": "PEDevicePaymentSDK.PETransactionType",
                 "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -63952,9 +63946,12 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK16TTPPaymentResultC_9isSuccess5errorAcA17PETransactionTypeO_SbAA17PECardReaderErrorCSgtcfc",
-            "mangledName": "$s18PEDevicePaymentSDK16TTPPaymentResultC_9isSuccess5errorAcA17PETransactionTypeO_SbAA17PECardReaderErrorCSgtcfc",
+            "usr": "s:18PEDevicePaymentSDK16TTPPaymentResultC_5errorAcA17PETransactionTypeO_AA17PECardReaderErrorCSgtcfc",
+            "mangledName": "$s18PEDevicePaymentSDK16TTPPaymentResultC_5errorAcA17PETransactionTypeO_AA17PECardReaderErrorCSgtcfc",
             "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "init_kind": "Designated"
           },
           {
