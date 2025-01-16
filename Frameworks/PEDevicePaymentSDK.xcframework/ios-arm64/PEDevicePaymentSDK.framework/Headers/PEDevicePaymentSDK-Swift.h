@@ -317,6 +317,11 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK18DiscoverableDevice")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK23GetTransactionsResponse")
+@interface GetTransactionsResponse : NSObject
+@end
+
 typedef SWIFT_ENUM(NSInteger, IDType, open) {
   IDTypePE_MID = 0,
   IDTypeNMI_SECURITY_KEY = 1,
@@ -529,6 +534,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 /// Start new transaction
 - (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 - (void)cancelTransaction;
+- (GetTransactionsResponse * _Nullable)getTransactionsWithPage:(NSInteger)page queryParams:(NSDictionary<NSString *, NSString *> * _Nonnull)queryParams error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly, copy) NSString * _Nonnull generalDeviceId;
 /// Version Number
 /// Return the SDK version number

@@ -1501,12 +1501,59 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
             "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmount12currencyCodeACSo9NSDecimala_SStcfc",
             "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmount12currencyCodeACSo9NSDecimala_SStcfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transactionType:transactionAmount:originalTransactionId:currencyCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEPaymentRequest",
+                "printedName": "PEDevicePaymentSDK.PEPaymentRequest",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PETransactionType",
+                "printedName": "PEDevicePaymentSDK.PETransactionType",
+                "usr": "c:@M@PEDevicePaymentSDK@E@PETransactionType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PEDevicePaymentSDK16PEPaymentRequestC15transactionType0F6Amount21originalTransactionId12currencyCodeAcA013PETransactionG0O_So9NSDecimalaS2Stcfc",
+            "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC15transactionType0F6Amount21originalTransactionId12currencyCodeAcA013PETransactionG0O_So9NSDecimalaS2Stcfc",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "AccessControl"
@@ -3252,6 +3299,168 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetTransactionsResponse",
+        "printedName": "GetTransactionsResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetTransactionsResponse",
+                "printedName": "PEDevicePaymentSDK.GetTransactionsResponse",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)GetTransactionsResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PEDevicePaymentSDK23GetTransactionsResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PEDevicePaymentSDK23GetTransactionsResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK23GetTransactionsResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PEDevicePaymentSDK23GetTransactionsResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "PEDevicePaymentSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PEDevicePaymentSDK@objc(cs)GetTransactionsResponse",
+        "mangledName": "$s18PEDevicePaymentSDK23GetTransactionsResponseC",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -5793,6 +6002,31 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK0B16ResultHostReportC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PEDevicePaymentSDK0B16ResultHostReportC6encode2toys7Encoder_p_tKF",
+            "moduleName": "PEDevicePaymentSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -5815,6 +6049,13 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           },
           {
             "kind": "Conformance",
@@ -5906,6 +6147,515 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultCodableStrategy",
+        "printedName": "DefaultCodableStrategy",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "DefaultValue",
+            "printedName": "DefaultValue",
+            "declKind": "AssociatedType",
+            "usr": "s:18PEDevicePaymentSDK22DefaultCodableStrategyP0D5ValueQa",
+            "mangledName": "$s18PEDevicePaymentSDK22DefaultCodableStrategyP0D5ValueQa",
+            "moduleName": "PEDevicePaymentSDK",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "defaultValue",
+            "printedName": "defaultValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.DefaultValue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PEDevicePaymentSDK22DefaultCodableStrategyP12defaultValue0dH0QzvpZ",
+            "mangledName": "$s18PEDevicePaymentSDK22DefaultCodableStrategyP12defaultValue0dH0QzvpZ",
+            "moduleName": "PEDevicePaymentSDK",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DefaultValue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK22DefaultCodableStrategyP12defaultValue0dH0QzvgZ",
+                "mangledName": "$s18PEDevicePaymentSDK22DefaultCodableStrategyP12defaultValue0dH0QzvgZ",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PEDevicePaymentSDK22DefaultCodableStrategyP",
+        "mangledName": "$s18PEDevicePaymentSDK22DefaultCodableStrategyP",
+        "moduleName": "PEDevicePaymentSDK",
+        "genericSig": "<τ_0_0.DefaultValue : Swift.Decodable>",
+        "sugared_genericSig": "<Self.DefaultValue : Swift.Decodable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultCodable",
+        "printedName": "DefaultCodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.DefaultValue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0Qzvp",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0Qzvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DefaultValue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0Qzvg",
+                "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0Qzvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DefaultValue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0Qzvs",
+                "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0Qzvs",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0QzvM",
+                "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV12wrappedValue0dG0QzvM",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultCodable",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.DefaultValue"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableV12wrappedValueACyxG0dG0Qz_tcfc",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV12wrappedValueACyxG0dG0Qz_tcfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+            "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultCodable",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableV4fromACyxGs7Decoder_p_tKcfc",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV4fromACyxGs7Decoder_p_tKcfc",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+            "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableVAASE0D5ValueRpzrlE6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableVAASE0D5ValueRpzrlE6encode2toys7Encoder_p_tKF",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy, τ_0_0.DefaultValue : Swift.Encodable>",
+            "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy, Default.DefaultValue : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultCodable",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultCodable",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableVAASQ0D5ValueRpzrlE2eeoiySbACyxG_AGtFZ",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableVAASQ0D5ValueRpzrlE2eeoiySbACyxG_AGtFZ",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy, τ_0_0.DefaultValue : Swift.Equatable>",
+            "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy, Default.DefaultValue : Swift.Equatable>",
+            "static": true,
+            "implicit": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableVAASH0D5ValueRpzrlE04hashF0Sivp",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableVAASH0D5ValueRpzrlE04hashF0Sivp",
+            "moduleName": "PEDevicePaymentSDK",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableVAASH0D5ValueRpzrlE04hashF0Sivg",
+                "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableVAASH0D5ValueRpzrlE04hashF0Sivg",
+                "moduleName": "PEDevicePaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy, τ_0_0.DefaultValue : Swift.Hashable>",
+                "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy, Default.DefaultValue : Swift.Hashable>",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK14DefaultCodableVAASH0D5ValueRpzrlE4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableVAASH0D5ValueRpzrlE4hash4intoys6HasherVz_tF",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy, τ_0_0.DefaultValue : Swift.Hashable>",
+            "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy, Default.DefaultValue : Swift.Hashable>",
+            "implicit": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18PEDevicePaymentSDK14DefaultCodableV",
+        "mangledName": "$s18PEDevicePaymentSDK14DefaultCodableV",
+        "moduleName": "PEDevicePaymentSDK",
+        "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+        "sugared_genericSig": "<Default where Default : PEDevicePaymentSDK.DefaultCodableStrategy>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoolCodableStrategy",
+        "printedName": "BoolCodableStrategy",
+        "declKind": "Protocol",
+        "usr": "s:18PEDevicePaymentSDK19BoolCodableStrategyP",
+        "mangledName": "$s18PEDevicePaymentSDK19BoolCodableStrategyP",
+        "moduleName": "PEDevicePaymentSDK",
+        "genericSig": "<τ_0_0 : PEDevicePaymentSDK.DefaultCodableStrategy, τ_0_0.DefaultValue == Swift.Bool>",
+        "sugared_genericSig": "<Self : PEDevicePaymentSDK.DefaultCodableStrategy, Self.DefaultValue == Swift.Bool>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DefaultCodableStrategy",
+            "printedName": "DefaultCodableStrategy",
+            "usr": "s:18PEDevicePaymentSDK22DefaultCodableStrategyP",
+            "mangledName": "$s18PEDevicePaymentSDK22DefaultCodableStrategyP"
+          }
         ]
       },
       {
@@ -7709,6 +8459,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CommonCrypto",
         "printedName": "CommonCrypto",
         "declKind": "Import",
@@ -9371,6 +10131,58 @@
               "ObjC",
               "AccessControl"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTransactions",
+            "printedName": "getTransactions(page:queryParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetTransactionsResponse",
+                "printedName": "PEDevicePaymentSDK.GetTransactionsResponse",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)GetTransactionsResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)getTransactionsWithPage:queryParams:error:",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC15getTransactions4page11queryParamsAA03GetG8ResponseCSi_SDyS2SGtKF",
+            "moduleName": "PEDevicePaymentSDK",
+            "objc_name": "getTransactionsWithPage:queryParams:error:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -14747,6 +15559,238 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyedDecodingContainer",
+        "printedName": "KeyedDecodingContainer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultCodable",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_1_0>.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultCodable",
+                    "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s22KeyedDecodingContainerV18PEDevicePaymentSDKE6decode_6forKeyAC14DefaultCodableVyqd__GAHm_xtKAC0jK8StrategyRd__lF",
+            "mangledName": "$ss22KeyedDecodingContainerV18PEDevicePaymentSDKE6decode_6forKeyAC14DefaultCodableVyqd__GAHm_xtKAC0jK8StrategyRd__lF",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.CodingKey, τ_1_0 : PEDevicePaymentSDK.DefaultCodableStrategy>",
+            "sugared_genericSig": "<K, P where K : Swift.CodingKey, P : PEDevicePaymentSDK.DefaultCodableStrategy>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultCodable",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_1_0>.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultCodable",
+                    "printedName": "PEDevicePaymentSDK.DefaultCodable<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:18PEDevicePaymentSDK14DefaultCodableV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s22KeyedDecodingContainerV18PEDevicePaymentSDKE6decode_6forKeyAC14DefaultCodableVyqd__GAHm_xtKAC04BoolK8StrategyRd__lF",
+            "mangledName": "$ss22KeyedDecodingContainerV18PEDevicePaymentSDKE6decode_6forKeyAC14DefaultCodableVyqd__GAHm_xtKAC04BoolK8StrategyRd__lF",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.CodingKey, τ_1_0 : PEDevicePaymentSDK.BoolCodableStrategy>",
+            "sugared_genericSig": "<K, P where K : Swift.CodingKey, P : PEDevicePaymentSDK.BoolCodableStrategy>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s22KeyedDecodingContainerV",
+        "mangledName": "$ss22KeyedDecodingContainerV",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.CodingKey>",
+        "sugared_genericSig": "<K where K : Swift.CodingKey>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "KeyedDecodingContainerProtocol",
+            "printedName": "KeyedDecodingContainerProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30KeyedDecodingContainerProtocolP",
+            "mangledName": "$ss30KeyedDecodingContainerProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Encodable",
+        "printedName": "Encodable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toJSON",
+            "printedName": "toJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SE18PEDevicePaymentSDKE6toJSONSSSgyF",
+            "mangledName": "$sSE18PEDevicePaymentSDKE6toJSONSSSgyF",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self where Self : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:SE",
+        "mangledName": "$sSE",
+        "moduleName": "Swift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -15089,6 +16133,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
@@ -15126,7 +16184,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "Array",
-      "offset": 397,
+      "offset": 398,
       "length": 2,
       "value": "[]"
     },
@@ -15607,6 +16665,118 @@
       "value": "\"ws.payengine.co\""
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 15,
+      "value": "\"transactionId\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 16,
+      "value": "\"dispute_status\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1084,
+      "length": 12,
+      "value": "\"is_offline\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 12,
+      "value": "\"fee_amount\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1180,
+      "length": 12,
+      "value": "\"net_amount\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 11,
+      "value": "\"card_type\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
+      "length": 8,
+      "value": "\"last_4\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 13,
+      "value": "\"host_report\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1343,
+      "length": 13,
+      "value": "\"kount_score\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 16,
+      "value": "\"payment_method\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1467,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1505,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1544,
+      "length": 13,
+      "value": "\"external_id\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 15,
+      "value": "\"customer_name\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 20,
+      "value": "\"customer_main_name\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "kind": "StringLiteral",
+      "offset": 1716,
+      "length": 13,
+      "value": "\"refund_type\""
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientOption.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
@@ -15658,9 +16828,30 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 1983,
       "length": 5,
       "value": "\"USD\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5269,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "kind": "Dictionary",
+      "offset": 5304,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResponse.swift",
@@ -16265,6 +17456,20 @@
       "value": "\"1. Enter the purchase amount in your iPad or Web POS app and check out with Tap to Pay on iPhone.\n\n2. Present your iPhone to the customer.\n\n3. Your customer holds their device near your iPhone, over the contactless symbol.\n\n4. When you see the “done” checkmark, the transaction is complete.\""
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/PaginationMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 14,
+      "value": "\"current_page\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/PaginationMeta.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 13,
+      "value": "\"total_pages\""
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Security\/FoundationSecurity.swift",
       "kind": "BooleanLiteral",
       "offset": 1064,
@@ -16377,6 +17582,41 @@
       "value": "false"
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 15,
+      "value": "\"customer_name\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 14,
+      "value": "\"order_number\""
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Util\/SocketLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 2846,
@@ -16427,43 +17667,57 @@
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6710,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "kind": "Dictionary",
+      "offset": 6745,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6956,
+      "offset": 7217,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7000,
+      "offset": 7261,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7106,
+      "offset": 7367,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7139,
+      "offset": 7400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7166,
+      "offset": 7427,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7183,
+      "offset": 7444,
       "length": 1,
       "value": "\"\""
     },

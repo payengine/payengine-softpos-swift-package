@@ -63,7 +63,8 @@ import zlib
 @_hasMissingDesignatedInitializers @objc public class PEPaymentRequest : ObjectiveC.NSObject, Swift.Codable {
   final public let transactionAmount: Foundation.Decimal
   final public let currencyCode: Swift.String
-  public init(transactionAmount: Foundation.Decimal, currencyCode: Swift.String)
+  public init(transactionAmount: Foundation.Decimal, currencyCode: Swift.String = "USD")
+  public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, currencyCode: Swift.String = "USD")
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -111,6 +112,11 @@ public enum LcdSelection : Swift.Codable {
   @objc func selectDevice(device: PEDevicePaymentSDK.DiscoverableDevice)
   @objc func selectLcdOption(value: Swift.UInt8)
 }
+@objc public class GetTransactionsResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public struct PEConfig {
   public let environment: any PEDevicePaymentSDK.IPEEnvironment
   public let merchantId: Swift.String?
@@ -143,7 +149,7 @@ public struct PEConfig {
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objc @objcMembers public class PaymentResultHostReport : ObjectiveC.NSObject, Swift.Decodable {
+@objc @objcMembers public class PaymentResultHostReport : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let status: Swift.String
   @objc final public let responseCode: Swift.String
   @objc final public let responseMessage: Swift.String
@@ -163,6 +169,36 @@ public struct PEConfig {
   @objc final public let iccIssuerScript: Swift.String?
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol DefaultCodableStrategy {
+  associatedtype DefaultValue : Swift.Decodable
+  static var defaultValue: Self.DefaultValue { get }
+}
+@propertyWrapper public struct DefaultCodable<Default> where Default : PEDevicePaymentSDK.DefaultCodableStrategy {
+  public var wrappedValue: Default.DefaultValue
+  public init(wrappedValue: Default.DefaultValue)
+}
+extension PEDevicePaymentSDK.DefaultCodable : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension PEDevicePaymentSDK.DefaultCodable : Swift.Encodable where Default.DefaultValue : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension PEDevicePaymentSDK.DefaultCodable : Swift.Equatable where Default.DefaultValue : Swift.Equatable {
+  public static func == (a: PEDevicePaymentSDK.DefaultCodable<Default>, b: PEDevicePaymentSDK.DefaultCodable<Default>) -> Swift.Bool
+}
+extension PEDevicePaymentSDK.DefaultCodable : Swift.Hashable where Default.DefaultValue : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol BoolCodableStrategy : PEDevicePaymentSDK.DefaultCodableStrategy where Self.DefaultValue == Swift.Bool {
+}
+extension Swift.KeyedDecodingContainer {
+  public func decode<P>(_: PEDevicePaymentSDK.DefaultCodable<P>.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> PEDevicePaymentSDK.DefaultCodable<P> where P : PEDevicePaymentSDK.DefaultCodableStrategy
+  public func decode<P>(_: PEDevicePaymentSDK.DefaultCodable<P>.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> PEDevicePaymentSDK.DefaultCodable<P> where P : PEDevicePaymentSDK.BoolCodableStrategy
 }
 public enum PEError : Swift.Error {
   case invalidMID(code: Swift.Int = 0, message: Swift.String = "Invalid MID")
@@ -197,6 +233,9 @@ extension PEDevicePaymentSDK.PEError : Foundation.LocalizedError {
   public var rawValue: Swift.Int {
     get
   }
+}
+extension Swift.Encodable {
+  public func toJSON() -> Swift.String?
 }
 @_hasMissingDesignatedInitializers @objc public class DiscoverableDevice : ObjectiveC.NSObject, Swift.Decodable {
   final public let id: Swift.String
@@ -241,6 +280,7 @@ extension PEDevicePaymentSDK.PEError : Foundation.LocalizedError {
   @objc public func selectLcdOption(value: Swift.UInt8)
   @objc public func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest)
   @objc public func cancelTransaction()
+  @objc public func getTransactions(page: Swift.Int = 1, queryParams: [Swift.String : Swift.String] = [:]) throws -> PEDevicePaymentSDK.GetTransactionsResponse
   @objc public var generalDeviceId: Swift.String {
     @objc get
   }
