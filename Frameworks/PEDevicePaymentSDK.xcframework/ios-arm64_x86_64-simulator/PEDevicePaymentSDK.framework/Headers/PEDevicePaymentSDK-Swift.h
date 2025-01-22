@@ -349,6 +349,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK9LcdOption")
 
 
 
+
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK17PECardReaderError")
 @interface PECardReaderError : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -376,7 +377,17 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
+/// Initializes device instance
+/// \param id Merchant ID
+///
+/// \param idType Merchant ID type
+///
+/// \param mode Transaction mode
+///
+/// \param delegate Delegate to receive initialization callbacks
+///
+- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 /// <code>connect</code> method’s main job is to initiate the connection between the app and chosen device type.
 /// Generally this will prepare the terminal TTP or BT/USB device to be ready for transaction processing.
 /// Connect to a device
@@ -511,6 +522,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initializes device instance
+/// \param id Merchant ID
+///
+/// \param idType Merchant ID type
+///
+/// \param mode Companion mode whether the transaction is allowed to initiated via API or just from device
+///
+/// \param delegate Delegate to receive initialization callbacks
+///
+- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+/// Initializes device instance
 /// \param license License string obtained from PayEngine support
 ///
 /// \param id Merchant ID
@@ -521,7 +542,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
 - (void)connectWithDelegate:(id <PEDeviceDelegate> _Nonnull)delegate;
 /// Connect to the specific device type
 /// \param device Selected device
@@ -1005,6 +1026,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK9LcdOption")
 
 
 
+
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK17PECardReaderError")
 @interface PECardReaderError : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1032,7 +1054,17 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
+/// Initializes device instance
+/// \param id Merchant ID
+///
+/// \param idType Merchant ID type
+///
+/// \param mode Transaction mode
+///
+/// \param delegate Delegate to receive initialization callbacks
+///
+- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 /// <code>connect</code> method’s main job is to initiate the connection between the app and chosen device type.
 /// Generally this will prepare the terminal TTP or BT/USB device to be ready for transaction processing.
 /// Connect to a device
@@ -1167,6 +1199,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initializes device instance
+/// \param id Merchant ID
+///
+/// \param idType Merchant ID type
+///
+/// \param mode Companion mode whether the transaction is allowed to initiated via API or just from device
+///
+/// \param delegate Delegate to receive initialization callbacks
+///
+- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+/// Initializes device instance
 /// \param license License string obtained from PayEngine support
 ///
 /// \param id Merchant ID
@@ -1177,7 +1219,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithLicense:(NSString * _Nonnull)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
 - (void)connectWithDelegate:(id <PEDeviceDelegate> _Nonnull)delegate;
 /// Connect to the specific device type
 /// \param device Selected device

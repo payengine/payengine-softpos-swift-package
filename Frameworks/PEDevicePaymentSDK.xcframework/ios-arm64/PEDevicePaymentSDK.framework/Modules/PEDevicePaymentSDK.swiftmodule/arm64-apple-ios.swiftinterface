@@ -60,11 +60,17 @@ import zlib
   @objc optional func didLaunchEducationalScreen()
   @objc optional func onEducationScreenDismissed()
 }
+@_hasMissingDesignatedInitializers public class PEPaymentRequestData : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers @objc public class PEPaymentRequest : ObjectiveC.NSObject, Swift.Codable {
   final public let transactionAmount: Foundation.Decimal
   final public let currencyCode: Swift.String
-  public init(transactionAmount: Foundation.Decimal, currencyCode: Swift.String = "USD")
-  public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, currencyCode: Swift.String = "USD")
+  public var transactionData: PEDevicePaymentSDK.PEJSON?
+  public init(transactionAmount: Foundation.Decimal, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
+  public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -105,7 +111,9 @@ public enum LcdSelection : Swift.Codable {
   @objc var deviceType: PEDevicePaymentSDK.DeviceType { get }
   @objc var deviceId: Swift.String? { get }
   @objc var connected: Swift.Bool { get }
-  @objc func initialize(license: Swift.String, id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @objc @available(*, deprecated, message: "license is no longer needed. Use initialize(id:idType:mode:delegate:)")
+  func initialize(license: Swift.String?, id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @objc func initialize(id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc func connect(delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest)
   @objc func cancelTransaction()
@@ -121,6 +129,355 @@ public struct PEConfig {
   public let environment: any PEDevicePaymentSDK.IPEEnvironment
   public let merchantId: Swift.String?
   public init(environment: any PEDevicePaymentSDK.IPEEnvironment, merchantId: Swift.String?)
+}
+public enum PEJSONError : Swift.Int, Swift.Error {
+  case unsupportedType
+  case indexOutOfBounds
+  case elementTooDeep
+  case wrongType
+  case notExist
+  case invalidPEJSON
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension PEDevicePaymentSDK.PEJSONError : Foundation.CustomNSError {
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorCode: Swift.Int {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+public enum Type : Swift.Int {
+  case number
+  case string
+  case bool
+  case array
+  case dictionary
+  case null
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct PEJSON {
+  public init(data: Foundation.Data, options opt: Foundation.JSONSerialization.ReadingOptions = []) throws
+  public init(_ object: Any)
+  public init(parsePEJSON jsonString: Swift.String)
+  public mutating func merge(with other: PEDevicePaymentSDK.PEJSON) throws
+  public func merged(with other: PEDevicePaymentSDK.PEJSON) throws -> PEDevicePaymentSDK.PEJSON
+  public var type: PEDevicePaymentSDK.`Type` {
+    get
+  }
+  public var error: PEDevicePaymentSDK.PEJSONError? {
+    get
+  }
+  public var object: Any {
+    get
+    set
+  }
+  @available(*, unavailable, renamed: "null")
+  public static var nullPEJSON: PEDevicePaymentSDK.PEJSON {
+    get
+  }
+  public static var null: PEDevicePaymentSDK.PEJSON {
+    get
+  }
+}
+public enum Index<T> : Swift.Comparable {
+  case array(Swift.Int)
+  case dictionary(Swift.DictionaryIndex<Swift.String, T>)
+  case null
+  public static func == (lhs: PEDevicePaymentSDK.Index<T>, rhs: PEDevicePaymentSDK.Index<T>) -> Swift.Bool
+  public static func < (lhs: PEDevicePaymentSDK.Index<T>, rhs: PEDevicePaymentSDK.Index<T>) -> Swift.Bool
+}
+public typealias PEJSONIndex = PEDevicePaymentSDK.Index<PEDevicePaymentSDK.PEJSON>
+public typealias PEJSONRawIndex = PEDevicePaymentSDK.Index<Any>
+extension PEDevicePaymentSDK.PEJSON : Swift.Collection {
+  public typealias Index = PEDevicePaymentSDK.PEJSONRawIndex
+  public var startIndex: PEDevicePaymentSDK.PEJSON.Index {
+    get
+  }
+  public var endIndex: PEDevicePaymentSDK.PEJSON.Index {
+    get
+  }
+  public func index(after i: PEDevicePaymentSDK.PEJSON.Index) -> PEDevicePaymentSDK.PEJSON.Index
+  public subscript(position: PEDevicePaymentSDK.PEJSON.Index) -> (Swift.String, PEDevicePaymentSDK.PEJSON) {
+    get
+  }
+  public typealias Element = (Swift.String, PEDevicePaymentSDK.PEJSON)
+  public typealias Indices = Swift.DefaultIndices<PEDevicePaymentSDK.PEJSON>
+  public typealias Iterator = Swift.IndexingIterator<PEDevicePaymentSDK.PEJSON>
+  public typealias SubSequence = Swift.Slice<PEDevicePaymentSDK.PEJSON>
+}
+public enum PEJSONKey {
+  case index(Swift.Int)
+  case key(Swift.String)
+}
+public protocol PEJSONSubscriptType {
+  var jsonKey: PEDevicePaymentSDK.PEJSONKey { get }
+}
+extension Swift.Int : PEDevicePaymentSDK.PEJSONSubscriptType {
+  public var jsonKey: PEDevicePaymentSDK.PEJSONKey {
+    get
+  }
+}
+extension Swift.String : PEDevicePaymentSDK.PEJSONSubscriptType {
+  public var jsonKey: PEDevicePaymentSDK.PEJSONKey {
+    get
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public subscript(path: [any PEDevicePaymentSDK.PEJSONSubscriptType]) -> PEDevicePaymentSDK.PEJSON {
+    get
+    set
+  }
+  public subscript(path: any PEDevicePaymentSDK.PEJSONSubscriptType...) -> PEDevicePaymentSDK.PEJSON {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public init(extendedGraphemeClusterLiteral value: Swift.StringLiteralType)
+  public init(unicodeScalarLiteral value: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.IntegerLiteralType)
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.ExpressibleByBooleanLiteral {
+  public init(booleanLiteral value: Swift.BooleanLiteralType)
+  public typealias BooleanLiteralType = Swift.BooleanLiteralType
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.ExpressibleByFloatLiteral {
+  public init(floatLiteral value: Swift.FloatLiteralType)
+  public typealias FloatLiteralType = Swift.FloatLiteralType
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.ExpressibleByDictionaryLiteral {
+  public init(dictionaryLiteral elements: (Swift.String, Any)...)
+  public typealias Key = Swift.String
+  public typealias Value = Any
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: Any...)
+  public typealias ArrayLiteralElement = Any
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.RawRepresentable {
+  public init?(rawValue: Any)
+  public var rawValue: Any {
+    get
+  }
+  public func rawData(options opt: Foundation.JSONSerialization.WritingOptions = JSONSerialization.WritingOptions(rawValue: 0)) throws -> Foundation.Data
+  public func rawString(_ encoding: Swift.String.Encoding = .utf8, options opt: Foundation.JSONSerialization.WritingOptions = .prettyPrinted) -> Swift.String?
+  public func rawString(_ options: [PEDevicePaymentSDK.writingOptionsKeys : Any]) -> Swift.String?
+  public typealias RawValue = Any
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var array: [PEDevicePaymentSDK.PEJSON]? {
+    get
+  }
+  public var arrayValue: [PEDevicePaymentSDK.PEJSON] {
+    get
+  }
+  public var arrayObject: [Any]? {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var dictionary: [Swift.String : PEDevicePaymentSDK.PEJSON]? {
+    get
+  }
+  public var dictionaryValue: [Swift.String : PEDevicePaymentSDK.PEJSON] {
+    get
+  }
+  public var dictionaryObject: [Swift.String : Any]? {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var bool: Swift.Bool? {
+    get
+    set
+  }
+  public var boolValue: Swift.Bool {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var string: Swift.String? {
+    get
+    set
+  }
+  public var stringValue: Swift.String {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var number: Foundation.NSNumber? {
+    get
+    set
+  }
+  public var numberValue: Foundation.NSNumber {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var null: Foundation.NSNull? {
+    get
+    set
+  }
+  public func exists() -> Swift.Bool
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var url: Foundation.URL? {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON {
+  public var double: Swift.Double? {
+    get
+    set
+  }
+  public var doubleValue: Swift.Double {
+    get
+    set
+  }
+  public var float: Swift.Float? {
+    get
+    set
+  }
+  public var floatValue: Swift.Float {
+    get
+    set
+  }
+  public var int: Swift.Int? {
+    get
+    set
+  }
+  public var intValue: Swift.Int {
+    get
+    set
+  }
+  public var uInt: Swift.UInt? {
+    get
+    set
+  }
+  public var uIntValue: Swift.UInt {
+    get
+    set
+  }
+  public var int8: Swift.Int8? {
+    get
+    set
+  }
+  public var int8Value: Swift.Int8 {
+    get
+    set
+  }
+  public var uInt8: Swift.UInt8? {
+    get
+    set
+  }
+  public var uInt8Value: Swift.UInt8 {
+    get
+    set
+  }
+  public var int16: Swift.Int16? {
+    get
+    set
+  }
+  public var int16Value: Swift.Int16 {
+    get
+    set
+  }
+  public var uInt16: Swift.UInt16? {
+    get
+    set
+  }
+  public var uInt16Value: Swift.UInt16 {
+    get
+    set
+  }
+  public var int32: Swift.Int32? {
+    get
+    set
+  }
+  public var int32Value: Swift.Int32 {
+    get
+    set
+  }
+  public var uInt32: Swift.UInt32? {
+    get
+    set
+  }
+  public var uInt32Value: Swift.UInt32 {
+    get
+    set
+  }
+  public var int64: Swift.Int64? {
+    get
+    set
+  }
+  public var int64Value: Swift.Int64 {
+    get
+    set
+  }
+  public var uInt64: Swift.UInt64? {
+    get
+    set
+  }
+  public var uInt64Value: Swift.UInt64 {
+    get
+    set
+  }
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.Comparable {
+}
+public func == (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+public func <= (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+public func >= (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+public func > (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+public func < (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+public enum writingOptionsKeys {
+  case jsonSerialization
+  case castNilToNSNull
+  case maxObjextDepth
+  case encoding
+  public static func == (a: PEDevicePaymentSDK.writingOptionsKeys, b: PEDevicePaymentSDK.writingOptionsKeys) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc public protocol IPEEnvironment {
   @objc var socketHostname: Swift.String { get }
@@ -273,7 +630,9 @@ extension Swift.Encodable {
   @objc public static var shared: PEDevicePaymentSDK.PEPaymentDevice
   @objc public static var environment: any PEDevicePaymentSDK.IPEEnvironment
   @objc public var deviceType: PEDevicePaymentSDK.DeviceType
-  @objc public func initialize(license: Swift.String, id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @objc public func initialize(id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @available(*, deprecated, message: "license is no longer needed. Use initialize(id:idType:mode:delegate:)")
+  @objc public func initialize(license: Swift.String?, id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc public func connect(delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc public func connect(device: any PEDevicePaymentSDK.PEDevice, delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc public func selectDevice(device: PEDevicePaymentSDK.DiscoverableDevice)
@@ -313,6 +672,14 @@ extension PEDevicePaymentSDK.TransactionMode : Swift.Hashable {}
 extension PEDevicePaymentSDK.TransactionMode : Swift.RawRepresentable {}
 extension PEDevicePaymentSDK.LcdSelection : Swift.Equatable {}
 extension PEDevicePaymentSDK.LcdSelection : Swift.Hashable {}
+extension PEDevicePaymentSDK.PEJSONError : Swift.Equatable {}
+extension PEDevicePaymentSDK.PEJSONError : Swift.Hashable {}
+extension PEDevicePaymentSDK.PEJSONError : Swift.RawRepresentable {}
+extension PEDevicePaymentSDK.`Type` : Swift.Equatable {}
+extension PEDevicePaymentSDK.`Type` : Swift.Hashable {}
+extension PEDevicePaymentSDK.`Type` : Swift.RawRepresentable {}
+extension PEDevicePaymentSDK.writingOptionsKeys : Swift.Equatable {}
+extension PEDevicePaymentSDK.writingOptionsKeys : Swift.Hashable {}
 extension PEDevicePaymentSDK.PEDeviceType : Swift.Equatable {}
 extension PEDevicePaymentSDK.PEDeviceType : Swift.Hashable {}
 extension PEDevicePaymentSDK.PEDeviceType : Swift.RawRepresentable {}
