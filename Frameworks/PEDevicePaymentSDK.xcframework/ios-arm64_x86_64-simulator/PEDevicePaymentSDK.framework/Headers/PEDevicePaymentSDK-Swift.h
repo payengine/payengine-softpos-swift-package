@@ -473,6 +473,18 @@ typedef SWIFT_ENUM(NSInteger, PEDeviceType, open) {
   PEDeviceTypeLIVE = 1,
 };
 
+
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK13PEEnvironment")
+@interface PEEnvironment : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <IPEEnvironment> _Nonnull Production;)
++ (id <IPEEnvironment> _Nonnull)Production SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <IPEEnvironment> _Nonnull Sandbox;)
++ (id <IPEEnvironment> _Nonnull)Sandbox SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <IPEEnvironment> _Nonnull Test;)
++ (id <IPEEnvironment> _Nonnull)Test SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class TerminalInfo;
 
 /// The <code>PEInitializationDelegate</code> interface defines a core set of callbacks that are invoked to notify the delegate about the progress and completion of application initialization and activation processes.
@@ -495,7 +507,6 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK24PEInitializationDelegate_")
 /// \param terminalInfo <code>TerminalInfo</code> Registered terminal info. Provide terminal information generally for display purposes.
 ///
 - (void)onActivationStartingWithTerminalInfo:(TerminalInfo * _Nonnull)terminalInfo;
-@optional
 /// Notifies when educational screens will be presented to merchant
 - (void)willLaunchEducationalScreen;
 /// Notifies when educations screens have been presented to merchant
@@ -576,14 +587,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
+enum PETransactionType : NSInteger;
 
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 @interface PEPaymentRequest : NSObject
+- (nonnull instancetype)initWithTransactionAmount:(NSDecimal)transactionAmount currencyCode:(NSString * _Nonnull)currencyCode OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithTransactionType:(enum PETransactionType)transactionType transactionAmount:(NSDecimal)transactionAmount originalTransactionId:(NSString * _Nonnull)originalTransactionId currencyCode:(NSString * _Nonnull)currencyCode OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum PETransactionType : NSInteger;
 @class PaymentResultHostReport;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
@@ -1150,6 +1163,18 @@ typedef SWIFT_ENUM(NSInteger, PEDeviceType, open) {
   PEDeviceTypeLIVE = 1,
 };
 
+
+SWIFT_CLASS("_TtC18PEDevicePaymentSDK13PEEnvironment")
+@interface PEEnvironment : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <IPEEnvironment> _Nonnull Production;)
++ (id <IPEEnvironment> _Nonnull)Production SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <IPEEnvironment> _Nonnull Sandbox;)
++ (id <IPEEnvironment> _Nonnull)Sandbox SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <IPEEnvironment> _Nonnull Test;)
++ (id <IPEEnvironment> _Nonnull)Test SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class TerminalInfo;
 
 /// The <code>PEInitializationDelegate</code> interface defines a core set of callbacks that are invoked to notify the delegate about the progress and completion of application initialization and activation processes.
@@ -1172,7 +1197,6 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK24PEInitializationDelegate_")
 /// \param terminalInfo <code>TerminalInfo</code> Registered terminal info. Provide terminal information generally for display purposes.
 ///
 - (void)onActivationStartingWithTerminalInfo:(TerminalInfo * _Nonnull)terminalInfo;
-@optional
 /// Notifies when educational screens will be presented to merchant
 - (void)willLaunchEducationalScreen;
 /// Notifies when educations screens have been presented to merchant
@@ -1253,14 +1277,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
+enum PETransactionType : NSInteger;
 
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 @interface PEPaymentRequest : NSObject
+- (nonnull instancetype)initWithTransactionAmount:(NSDecimal)transactionAmount currencyCode:(NSString * _Nonnull)currencyCode OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithTransactionType:(enum PETransactionType)transactionType transactionAmount:(NSDecimal)transactionAmount originalTransactionId:(NSString * _Nonnull)originalTransactionId currencyCode:(NSString * _Nonnull)currencyCode OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum PETransactionType : NSInteger;
 @class PaymentResultHostReport;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")

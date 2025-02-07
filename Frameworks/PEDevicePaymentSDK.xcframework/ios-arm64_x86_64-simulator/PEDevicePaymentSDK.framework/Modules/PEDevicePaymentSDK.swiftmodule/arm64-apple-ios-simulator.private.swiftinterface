@@ -56,9 +56,9 @@ import zlib
   @objc func onInitFailed(error: any Swift.Error)
   @objc func onActivationRequired(activationCode: Swift.String)
   @objc func onActivationStarting(terminalInfo: PEDevicePaymentSDK.TerminalInfo)
-  @objc optional func willLaunchEducationalScreen()
-  @objc optional func didLaunchEducationalScreen()
-  @objc optional func onEducationScreenDismissed()
+  @objc func willLaunchEducationalScreen()
+  @objc func didLaunchEducationalScreen()
+  @objc func onEducationScreenDismissed()
 }
 @_hasMissingDesignatedInitializers public class PEPaymentRequestData : Swift.Codable {
   @objc deinit
@@ -71,6 +71,8 @@ import zlib
   public var transactionData: PEDevicePaymentSDK.PEJSON?
   public init(transactionAmount: Foundation.Decimal, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
   public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
+  @objc public init(transactionAmount: Foundation.Decimal, currencyCode: Swift.String = "USD")
+  @objc public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, currencyCode: Swift.String = "USD")
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -101,10 +103,11 @@ public enum LcdSelection : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class PEEnvironment {
-  public static let Production: any PEDevicePaymentSDK.IPEEnvironment
-  public static let Sandbox: any PEDevicePaymentSDK.IPEEnvironment
-  public static let Test: any PEDevicePaymentSDK.IPEEnvironment
+@_inheritsConvenienceInitializers @objc public class PEEnvironment : ObjectiveC.NSObject {
+  @objc public static let Production: any PEDevicePaymentSDK.IPEEnvironment
+  @objc public static let Sandbox: any PEDevicePaymentSDK.IPEEnvironment
+  @objc public static let Test: any PEDevicePaymentSDK.IPEEnvironment
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol PEDevice {
@@ -569,6 +572,7 @@ public enum PEError : Swift.Error {
   case notConnectedError(code: Swift.Int = 8, message: Swift.String = "No device connected")
   case noCurrentActiveTransaction(code: Swift.Int = 9, message: Swift.String = "No current active transaction")
   case transactionNotAllowed(code: Swift.Int = 10, message: Swift.String = "Transaction is not allowed")
+  case cardReaderError(error: ProximityReader.PaymentCardReaderError)
   case parameterError(code: Swift.Int, message: Swift.String)
   case common(message: Swift.String)
   case deactivated(message: Swift.String, activationCode: Swift.String)
