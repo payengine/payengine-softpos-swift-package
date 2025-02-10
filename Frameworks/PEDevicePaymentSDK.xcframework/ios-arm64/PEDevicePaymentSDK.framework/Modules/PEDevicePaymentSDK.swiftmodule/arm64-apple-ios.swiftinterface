@@ -38,32 +38,27 @@ import zlib
 }
 @objc public protocol PEDeviceDelegate {
   @objc func onDeviceSelected(device: any PEDevicePaymentSDK.PEDevice)
-  @objc func onActivationProgress(device: any PEDevicePaymentSDK.PEDevice, completed: Swift.Int)
+  @objc optional func onActivationProgress(device: any PEDevicePaymentSDK.PEDevice, completed: Swift.Int)
   @objc func onConnected(device: any PEDevicePaymentSDK.PEDevice)
   @objc func onConnectionFailed(device: any PEDevicePaymentSDK.PEDevice, error: any Swift.Error)
-  @objc func onCardRead(success: Swift.Bool)
-  @objc func onDiscoveringDevice(_ searching: Swift.Bool)
-  @objc func onDeviceDiscovered(_ device: PEDevicePaymentSDK.DiscoverableDevice)
-  @objc func onLcdConfirmation(_ message: Swift.String)
-  @objc func onLcdMessage(_ message: Swift.String)
-  @objc func didStartTransaction(_ request: PEDevicePaymentSDK.PEPaymentRequest)
-  @objc func didStartAuthorization(_ request: PEDevicePaymentSDK.PEPaymentRequest)
+  @objc optional func onCardRead(success: Swift.Bool)
+  @objc optional func onDiscoveringDevice(_ searching: Swift.Bool)
+  @objc optional func onDeviceDiscovered(_ device: PEDevicePaymentSDK.DiscoverableDevice)
+  @objc optional func onLcdConfirmation(_ message: Swift.String)
+  @objc optional func onLcdMessage(_ message: Swift.String)
+  @objc optional func didStartTransaction(_ request: PEDevicePaymentSDK.PEPaymentRequest)
+  @objc optional func didStartAuthorization(_ request: PEDevicePaymentSDK.PEPaymentRequest)
   @objc func onTransactionCompleted(transaction: any PEDevicePaymentSDK.PEPaymentResult)
   @objc func onTransactionFailed(transaction: any PEDevicePaymentSDK.PEPaymentResult)
 }
 @objc public protocol PEInitializationDelegate {
   @objc func onInitialized(availableDevices: [any PEDevicePaymentSDK.PEDevice])
   @objc func onInitFailed(error: any Swift.Error)
-  @objc func onActivationRequired(activationCode: Swift.String)
-  @objc func onActivationStarting(terminalInfo: PEDevicePaymentSDK.TerminalInfo)
-  @objc func willLaunchEducationalScreen()
-  @objc func didLaunchEducationalScreen()
-  @objc func onEducationScreenDismissed()
-}
-@_hasMissingDesignatedInitializers public class PEPaymentRequestData : Swift.Codable {
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  @objc optional func onActivationRequired(activationCode: Swift.String)
+  @objc optional func onActivationStarting(terminalInfo: PEDevicePaymentSDK.TerminalInfo)
+  @objc optional func willLaunchEducationalScreen()
+  @objc optional func didLaunchEducationalScreen()
+  @objc optional func onEducationScreenDismissed()
 }
 @_hasMissingDesignatedInitializers @objc public class PEPaymentRequest : ObjectiveC.NSObject, Swift.Codable {
   final public let transactionAmount: Foundation.Decimal
@@ -87,7 +82,7 @@ import zlib
     get
   }
 }
-public enum LcdSelection : Swift.Codable {
+@_documentation(visibility: private) public enum LcdSelection : Swift.Codable {
   case OK
   case Cancel
   public static func == (a: PEDevicePaymentSDK.LcdSelection, b: PEDevicePaymentSDK.LcdSelection) -> Swift.Bool
@@ -98,7 +93,7 @@ public enum LcdSelection : Swift.Codable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class LcdOption : ObjectiveC.NSObject, Swift.Codable {
+@_hasMissingDesignatedInitializers @_documentation(visibility: private) @objc public class LcdOption : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -486,15 +481,6 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
   @objc var socketHostname: Swift.String { get }
   @objc var apiHostname: Swift.String { get }
 }
-@objc public enum PEDeviceType : Swift.Int {
-  case SIMULATOR
-  case LIVE
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @objc @objcMembers public class PaymentResult : ObjectiveC.NSObject, Swift.Decodable {
   @objc final public let data: PEDevicePaymentSDK.PaymentResultData?
   final public let error: Swift.Bool?
@@ -563,11 +549,11 @@ extension Swift.KeyedDecodingContainer {
 public enum PEError : Swift.Error {
   case invalidMID(code: Swift.Int = 0, message: Swift.String = "Invalid MID")
   case disconnectError(code: Swift.Int = 1, message: Swift.String = "Disconnected from server")
-  case versionNotSupported(cod: Swift.Int = 2, message: Swift.String = "Only iOS 17 and above is supported")
+  case versionNotSupported(code: Swift.Int = 2, message: Swift.String = "Only iOS 17 and above is supported")
   case paymentCardError(code: Swift.Int = 3, message: Swift.String = "Payment Card Reader Error")
   case initializationError(code: Swift.Int = 4, message: Swift.String = "Initialization failed")
   case unsupportedDeviceError(code: Swift.Int = 5, message: Swift.String = "Device type not supported")
-  case usbUnrecognizedError(code: Swift.Int = 6, message: Swift.String = "Unable to regconize USB device")
+  case usbUnrecognizedError(code: Swift.Int = 6, message: Swift.String = "Unable to recognize USB device")
   case connectTimeoutError(code: Swift.Int = 7, message: Swift.String = "Timed out connecting to device")
   case notConnectedError(code: Swift.Int = 8, message: Swift.String = "No device connected")
   case noCurrentActiveTransaction(code: Swift.Int = 9, message: Swift.String = "No current active transaction")
@@ -652,8 +638,8 @@ extension Swift.Encodable {
   }
   @objc public static func showMerchantTutorial()
   @objc public static func blockIncomingTransaction(_ block: Swift.Bool)
-  @objc public static func uploadFCMToken(token: Swift.String)
-  @objc public static func clearData()
+  @_documentation(visibility: private) @objc public static func uploadFCMToken(token: Swift.String)
+  @_documentation(visibility: private) @objc public static func clearData()
   @objc deinit
 }
 @objc public enum PETransactionType : Swift.Int, Swift.Codable {
@@ -684,9 +670,6 @@ extension PEDevicePaymentSDK.`Type` : Swift.Hashable {}
 extension PEDevicePaymentSDK.`Type` : Swift.RawRepresentable {}
 extension PEDevicePaymentSDK.writingOptionsKeys : Swift.Equatable {}
 extension PEDevicePaymentSDK.writingOptionsKeys : Swift.Hashable {}
-extension PEDevicePaymentSDK.PEDeviceType : Swift.Equatable {}
-extension PEDevicePaymentSDK.PEDeviceType : Swift.Hashable {}
-extension PEDevicePaymentSDK.PEDeviceType : Swift.RawRepresentable {}
 extension PEDevicePaymentSDK.DeviceType : Swift.Equatable {}
 extension PEDevicePaymentSDK.DeviceType : Swift.Hashable {}
 extension PEDevicePaymentSDK.DeviceType : Swift.RawRepresentable {}

@@ -65,7 +65,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -253,7 +254,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "superclassNames": [
@@ -411,6 +413,7 @@
             "mangledName": "$s18PEDevicePaymentSDK6IDTypeO6PE_MIDyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 0
@@ -452,6 +455,7 @@
             "mangledName": "$s18PEDevicePaymentSDK6IDTypeO16NMI_SECURITY_KEYyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 1
@@ -493,6 +497,7 @@
             "mangledName": "$s18PEDevicePaymentSDK6IDTypeO13PROCESSOR_MIDyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 2
@@ -576,7 +581,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -735,9 +741,11 @@
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDeviceDelegate>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
+            "objc_name": "onActivationProgressWithDevice:completed:",
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -834,9 +842,11 @@
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDeviceDelegate>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
+            "objc_name": "onCardReadWithSuccess:",
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -866,8 +876,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -897,8 +908,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -928,8 +940,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -959,8 +972,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -990,8 +1004,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1021,8 +1036,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDeviceDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1234,9 +1250,11 @@
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEInitializationDelegate>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEInitializationDelegate>",
             "protocolReq": true,
+            "objc_name": "onActivationRequiredWithActivationCode:",
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1265,9 +1283,11 @@
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEInitializationDelegate>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEInitializationDelegate>",
             "protocolReq": true,
+            "objc_name": "onActivationStartingWithTerminalInfo:",
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1291,8 +1311,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEInitializationDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1316,8 +1337,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEInitializationDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1341,8 +1363,9 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEInitializationDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1378,106 +1401,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PEPaymentRequestData",
-        "printedName": "PEPaymentRequestData",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PEPaymentRequestData",
-                "printedName": "PEDevicePaymentSDK.PEPaymentRequestData",
-                "usr": "s:18PEDevicePaymentSDK20PEPaymentRequestDataC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK20PEPaymentRequestDataC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18PEDevicePaymentSDK20PEPaymentRequestDataC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "PEDevicePaymentSDK",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18PEDevicePaymentSDK20PEPaymentRequestDataC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18PEDevicePaymentSDK20PEPaymentRequestDataC6encode2toys7Encoder_p_tKF",
-            "moduleName": "PEDevicePaymentSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:18PEDevicePaymentSDK20PEPaymentRequestDataC",
-        "mangledName": "$s18PEDevicePaymentSDK20PEPaymentRequestDataC",
-        "moduleName": "PEDevicePaymentSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "PEPaymentRequest",
         "printedName": "PEPaymentRequest",
         "children": [
@@ -1500,7 +1423,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1548,7 +1472,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1604,7 +1529,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1732,7 +1658,8 @@
             "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC17transactionAmount0F4Data12currencyCodeACSo9NSDecimala_AA6PEJSONVSgSStcfc",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -1793,7 +1720,8 @@
             "mangledName": "$s18PEDevicePaymentSDK16PEPaymentRequestC15transactionType0F6Amount21originalTransactionId0F4Data12currencyCodeAcA013PETransactionG0O_So9NSDecimalaSSAA6PEJSONVSgSStcfc",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -1829,7 +1757,8 @@
             "objc_name": "initWithTransactionAmount:currencyCode:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -1877,7 +1806,8 @@
             "objc_name": "initWithTransactionType:transactionAmount:originalTransactionId:currencyCode:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -1968,7 +1898,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -2097,6 +2028,7 @@
             "mangledName": "$s18PEDevicePaymentSDK15TransactionModeO3allyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 0
@@ -2138,6 +2070,7 @@
             "mangledName": "$s18PEDevicePaymentSDK15TransactionModeO9companionyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 1
@@ -2179,6 +2112,7 @@
             "mangledName": "$s18PEDevicePaymentSDK15TransactionModeO6deviceyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 2
@@ -2436,7 +2370,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK12LcdSelectionO2OKyA2CmF",
             "mangledName": "$s18PEDevicePaymentSDK12LcdSelectionO2OKyA2CmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2473,7 +2410,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK12LcdSelectionO6CancelyA2CmF",
             "mangledName": "$s18PEDevicePaymentSDK12LcdSelectionO6CancelyA2CmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -2628,7 +2568,9 @@
         "mangledName": "$s18PEDevicePaymentSDK12LcdSelectionO",
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Documentation",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -2767,7 +2709,9 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "Documentation",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -2891,7 +2835,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2944,7 +2889,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2997,7 +2943,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3061,7 +3008,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -3299,6 +3247,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -3355,6 +3304,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -3411,6 +3361,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -3728,7 +3679,8 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3850,7 +3802,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "superclassNames": [
@@ -4009,7 +3962,8 @@
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4061,7 +4015,8 @@
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4143,7 +4098,8 @@
         "mangledName": "$s18PEDevicePaymentSDK8PEConfigV",
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -12118,238 +12074,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PEDeviceType",
-        "printedName": "PEDeviceType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "SIMULATOR",
-            "printedName": "SIMULATOR",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PEDeviceType.Type) -> PEDevicePaymentSDK.PEDeviceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PEDeviceType",
-                    "printedName": "PEDevicePaymentSDK.PEDeviceType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PEDeviceType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PEDeviceType",
-                        "printedName": "PEDevicePaymentSDK.PEDeviceType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType@PEDeviceTypeSIMULATOR",
-            "mangledName": "$s18PEDevicePaymentSDK0A4TypeO9SIMULATORyA2CmF",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 0
-          },
-          {
-            "kind": "Var",
-            "name": "LIVE",
-            "printedName": "LIVE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.PEDeviceType.Type) -> PEDevicePaymentSDK.PEDeviceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PEDeviceType",
-                    "printedName": "PEDevicePaymentSDK.PEDeviceType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.PEDeviceType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PEDeviceType",
-                        "printedName": "PEDevicePaymentSDK.PEDeviceType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType@PEDeviceTypeLIVE",
-            "mangledName": "$s18PEDevicePaymentSDK0A4TypeO4LIVEyA2CmF",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PEDevicePaymentSDK.PEDeviceType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PEDeviceType",
-                    "printedName": "PEDevicePaymentSDK.PEDeviceType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18PEDevicePaymentSDK0A4TypeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s18PEDevicePaymentSDK0A4TypeO8rawValueACSgSi_tcfc",
-            "moduleName": "PEDevicePaymentSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18PEDevicePaymentSDK0A4TypeO8rawValueSivp",
-            "mangledName": "$s18PEDevicePaymentSDK0A4TypeO8rawValueSivp",
-            "moduleName": "PEDevicePaymentSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18PEDevicePaymentSDK0A4TypeO8rawValueSivg",
-                "mangledName": "$s18PEDevicePaymentSDK0A4TypeO8rawValueSivg",
-                "moduleName": "PEDevicePaymentSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@M@PEDevicePaymentSDK@E@PEDeviceType",
-        "mangledName": "$s18PEDevicePaymentSDK0A4TypeO",
-        "moduleName": "PEDevicePaymentSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PEDevicePaymentSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "PaymentResult",
         "printedName": "PaymentResult",
         "children": [
@@ -12381,6 +12105,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -12446,7 +12171,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -12511,6 +12237,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -12586,6 +12313,7 @@
         "declAttributes": [
           "AccessControl",
           "ObjCMembers",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -12690,6 +12418,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -12740,6 +12469,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -12790,6 +12520,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -12857,6 +12588,7 @@
         "declAttributes": [
           "AccessControl",
           "ObjCMembers",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -12961,6 +12693,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13011,6 +12744,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13061,6 +12795,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13119,6 +12854,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13185,6 +12921,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13251,6 +12988,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13317,6 +13055,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13383,6 +13122,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13449,6 +13189,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13515,6 +13256,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13581,6 +13323,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13639,6 +13382,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13689,6 +13433,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13747,6 +13492,7 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "hasStorage": true,
@@ -13931,6 +13677,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -13997,6 +13744,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -14123,6 +13871,7 @@
         "declAttributes": [
           "AccessControl",
           "ObjCMembers",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -14882,7 +14631,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO10invalidMIDyACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO10invalidMIDyACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -14945,7 +14697,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO15disconnectErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO15disconnectErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -14971,7 +14726,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(cod: Swift.Int, message: Swift.String)",
+                        "printedName": "(code: Swift.Int, message: Swift.String)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15008,7 +14763,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO19versionNotSupportedyACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO19versionNotSupportedyACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15071,7 +14829,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO16paymentCardErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO16paymentCardErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15134,7 +14895,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO19initializationErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO19initializationErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15197,7 +14961,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO22unsupportedDeviceErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO22unsupportedDeviceErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15260,7 +15027,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO20usbUnrecognizedErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO20usbUnrecognizedErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15323,7 +15093,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO19connectTimeoutErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO19connectTimeoutErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15386,7 +15159,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO17notConnectedErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO17notConnectedErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15449,7 +15225,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO26noCurrentActiveTransactionyACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO26noCurrentActiveTransactionyACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15512,7 +15291,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO21transactionNotAllowedyACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO21transactionNotAllowedyACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15569,7 +15351,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO15cardReaderErroryAC09ProximityF00b4CardfG0O_tcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO15cardReaderErroryAC09ProximityF00b4CardfG0O_tcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15632,7 +15417,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO14parameterErroryACSi_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO14parameterErroryACSi_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15689,7 +15477,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO6commonyACSS_tcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO6commonyACSS_tcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15752,7 +15543,10 @@
             "declKind": "EnumElement",
             "usr": "s:18PEDevicePaymentSDK7PEErrorO11deactivatedyACSS_SStcACmF",
             "mangledName": "$s18PEDevicePaymentSDK7PEErrorO11deactivatedyACSS_SStcACmF",
-            "moduleName": "PEDevicePaymentSDK"
+            "moduleName": "PEDevicePaymentSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15818,7 +15612,8 @@
         "mangledName": "$s18PEDevicePaymentSDK7PEErrorO",
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -15927,6 +15722,7 @@
             "mangledName": "$s18PEDevicePaymentSDK10DeviceTypeO2BTyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 0
@@ -15968,6 +15764,7 @@
             "mangledName": "$s18PEDevicePaymentSDK10DeviceTypeO3USByA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 1
@@ -16009,6 +15806,7 @@
             "mangledName": "$s18PEDevicePaymentSDK10DeviceTypeO6MOBILEyA2CmF",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 2
@@ -16133,7 +15931,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -16464,7 +16263,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -16658,6 +16458,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -16736,6 +16537,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -16792,6 +16594,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -16856,6 +16659,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -16920,6 +16724,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -16984,6 +16789,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -17048,6 +16854,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -17112,6 +16919,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -17176,6 +16984,7 @@
             "moduleName": "PEDevicePaymentSDK",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "accessors": [
@@ -17223,7 +17032,8 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -17340,7 +17150,8 @@
             "mangledName": "$s18PEDevicePaymentSDK17PECardReaderErrorC16errorDescriptionSSSgvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -17388,7 +17199,8 @@
             "mangledName": "$s18PEDevicePaymentSDK17PECardReaderErrorC9errorCodeSSvp",
             "moduleName": "PEDevicePaymentSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -17444,7 +17256,8 @@
         "moduleName": "PEDevicePaymentSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -18576,6 +18389,7 @@
               "Final",
               "AccessControl",
               "ObjC",
+              "Documentation",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -18600,6 +18414,7 @@
               "Final",
               "AccessControl",
               "ObjC",
+              "Documentation",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -24349,14 +24164,14 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/IDType.swift",
       "kind": "IntegerLiteral",
-      "offset": 146,
+      "offset": 404,
       "length": 16,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/IDType.swift",
       "kind": "IntegerLiteral",
-      "offset": 172,
+      "offset": 468,
       "length": 13,
       "value": "2"
     },
@@ -24447,56 +24262,56 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 242,
+      "offset": 394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 651,
+      "offset": 1201,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 1990,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1303,
+      "offset": 2647,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 3420,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
-      "offset": 151,
+      "offset": 374,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
-      "offset": 174,
+      "offset": 481,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
-      "offset": 194,
+      "offset": 606,
       "length": 1,
       "value": "2"
     },
@@ -25306,16 +25121,9 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/PEDeviceType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 155,
-      "length": 4,
-      "value": "1"
-    },
-    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
       "kind": "StringLiteral",
-      "offset": 1983,
+      "offset": 3479,
       "length": 5,
       "value": "\"USD\""
     },
@@ -25462,154 +25270,154 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 178,
+      "offset": 436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 199,
+      "offset": 457,
       "length": 13,
       "value": "\"Invalid MID\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 251,
+      "offset": 561,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 272,
+      "offset": 582,
       "length": 26,
       "value": "\"Disconnected from server\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 340,
+      "offset": 760,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 781,
       "length": 36,
       "value": "\"Only iOS 17 and above is supported\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 437,
+      "offset": 899,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 458,
+      "offset": 920,
       "length": 27,
       "value": "\"Payment Card Reader Error\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 1028,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 1049,
       "length": 23,
       "value": "\"Initialization failed\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 618,
+      "offset": 1190,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 1211,
       "length": 27,
       "value": "\"Device type not supported\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 710,
+      "offset": 1352,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 1373,
       "length": 32,
-      "value": "\"Unable to regconize USB device\""
+      "value": "\"Unable to recognize USB device\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 806,
+      "offset": 1489,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 827,
+      "offset": 1510,
       "length": 32,
       "value": "\"Timed out connecting to device\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 900,
+      "offset": 1645,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 1666,
       "length": 21,
       "value": "\"No device connected\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 992,
+      "offset": 1815,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 1013,
+      "offset": 1836,
       "length": 31,
       "value": "\"No current active transaction\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1089,
+      "offset": 1982,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEError.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 2004,
       "length": 28,
       "value": "\"Transaction is not allowed\""
     },
@@ -25623,14 +25431,14 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
       "kind": "IntegerLiteral",
-      "offset": 168,
+      "offset": 386,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
       "kind": "IntegerLiteral",
-      "offset": 181,
+      "offset": 441,
       "length": 6,
       "value": "2"
     },
@@ -26113,98 +25921,98 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 470,
+      "offset": 2172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 685,
+      "offset": 2387,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1316,
+      "offset": 3018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1359,
+      "offset": 3061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1411,
+      "offset": 3113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 1981,
+      "offset": 3683,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 7365,
+      "offset": 9067,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Dictionary",
-      "offset": 7400,
+      "offset": 9102,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7872,
+      "offset": 9574,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7916,
+      "offset": 9618,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 8022,
+      "offset": 9724,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 8055,
+      "offset": 9757,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 8082,
+      "offset": 9784,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 8099,
+      "offset": 9801,
       "length": 1,
       "value": "\"\""
     },
