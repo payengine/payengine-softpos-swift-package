@@ -128,7 +128,7 @@ public struct PEConfig {
   public let merchantId: Swift.String?
   public init(environment: any PEDevicePaymentSDK.IPEEnvironment, merchantId: Swift.String?)
 }
-public enum PEJSONError : Swift.Int, Swift.Error {
+@_documentation(visibility: private) public enum PEJSONError : Swift.Int, Swift.Error {
   case unsupportedType
   case indexOutOfBounds
   case elementTooDeep
@@ -152,7 +152,7 @@ extension PEDevicePaymentSDK.PEJSONError : Foundation.CustomNSError {
     get
   }
 }
-public enum Type : Swift.Int {
+@_documentation(visibility: private) public enum Type : Swift.Int {
   case number
   case string
   case bool
@@ -190,15 +190,15 @@ public struct PEJSON {
     get
   }
 }
-public enum Index<T> : Swift.Comparable {
+@_documentation(visibility: private) public enum Index<T> : Swift.Comparable {
   case array(Swift.Int)
   case dictionary(Swift.DictionaryIndex<Swift.String, T>)
   case null
   public static func == (lhs: PEDevicePaymentSDK.Index<T>, rhs: PEDevicePaymentSDK.Index<T>) -> Swift.Bool
   public static func < (lhs: PEDevicePaymentSDK.Index<T>, rhs: PEDevicePaymentSDK.Index<T>) -> Swift.Bool
 }
-public typealias PEJSONIndex = PEDevicePaymentSDK.Index<PEDevicePaymentSDK.PEJSON>
-public typealias PEJSONRawIndex = PEDevicePaymentSDK.Index<Any>
+@_documentation(visibility: private) public typealias PEJSONIndex = PEDevicePaymentSDK.Index<PEDevicePaymentSDK.PEJSON>
+@_documentation(visibility: private) public typealias PEJSONRawIndex = PEDevicePaymentSDK.Index<Any>
 extension PEDevicePaymentSDK.PEJSON : Swift.Collection {
   public typealias Index = PEDevicePaymentSDK.PEJSONRawIndex
   public var startIndex: PEDevicePaymentSDK.PEJSON.Index {
@@ -216,11 +216,11 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Collection {
   public typealias Iterator = Swift.IndexingIterator<PEDevicePaymentSDK.PEJSON>
   public typealias SubSequence = Swift.Slice<PEDevicePaymentSDK.PEJSON>
 }
-public enum PEJSONKey {
+@_documentation(visibility: private) public enum PEJSONKey {
   case index(Swift.Int)
   case key(Swift.String)
 }
-public protocol PEJSONSubscriptType {
+@_documentation(visibility: private) public protocol PEJSONSubscriptType {
   var jsonKey: PEDevicePaymentSDK.PEJSONKey { get }
 }
 extension Swift.Int : PEDevicePaymentSDK.PEJSONSubscriptType {
@@ -457,12 +457,12 @@ extension PEDevicePaymentSDK.PEJSON {
 }
 extension PEDevicePaymentSDK.PEJSON : Swift.Comparable {
 }
-public func == (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
-public func <= (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
-public func >= (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
-public func > (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
-public func < (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
-public enum writingOptionsKeys {
+@_documentation(visibility: private) public func == (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+@_documentation(visibility: private) public func <= (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+@_documentation(visibility: private) public func >= (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+@_documentation(visibility: private) public func > (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+@_documentation(visibility: private) public func < (lhs: PEDevicePaymentSDK.PEJSON, rhs: PEDevicePaymentSDK.PEJSON) -> Swift.Bool
+@_documentation(visibility: private) public enum writingOptionsKeys {
   case jsonSerialization
   case castNilToNSNull
   case maxObjextDepth
@@ -516,35 +516,6 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-}
-public protocol DefaultCodableStrategy {
-  associatedtype DefaultValue : Swift.Decodable
-  static var defaultValue: Self.DefaultValue { get }
-}
-@propertyWrapper public struct DefaultCodable<Default> where Default : PEDevicePaymentSDK.DefaultCodableStrategy {
-  public var wrappedValue: Default.DefaultValue
-  public init(wrappedValue: Default.DefaultValue)
-}
-extension PEDevicePaymentSDK.DefaultCodable : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension PEDevicePaymentSDK.DefaultCodable : Swift.Encodable where Default.DefaultValue : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-extension PEDevicePaymentSDK.DefaultCodable : Swift.Equatable where Default.DefaultValue : Swift.Equatable {
-  public static func == (a: PEDevicePaymentSDK.DefaultCodable<Default>, b: PEDevicePaymentSDK.DefaultCodable<Default>) -> Swift.Bool
-}
-extension PEDevicePaymentSDK.DefaultCodable : Swift.Hashable where Default.DefaultValue : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public protocol BoolCodableStrategy : PEDevicePaymentSDK.DefaultCodableStrategy where Self.DefaultValue == Swift.Bool {
-}
-extension Swift.KeyedDecodingContainer {
-  public func decode<P>(_: PEDevicePaymentSDK.DefaultCodable<P>.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> PEDevicePaymentSDK.DefaultCodable<P> where P : PEDevicePaymentSDK.DefaultCodableStrategy
-  public func decode<P>(_: PEDevicePaymentSDK.DefaultCodable<P>.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> PEDevicePaymentSDK.DefaultCodable<P> where P : PEDevicePaymentSDK.BoolCodableStrategy
 }
 public enum PEError : Swift.Error {
   case invalidMID(code: Swift.Int = 0, message: Swift.String = "Invalid MID")
@@ -630,9 +601,6 @@ extension Swift.Encodable {
   @objc public func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest)
   @objc public func cancelTransaction()
   @objc public func getTransactions(page: Swift.Int = 1, queryParams: [Swift.String : Swift.String] = [:]) throws -> PEDevicePaymentSDK.GetTransactionsResponse
-  @objc public var generalDeviceId: Swift.String {
-    @objc get
-  }
   @objc public static var versionNumber: Swift.String {
     @objc get
   }

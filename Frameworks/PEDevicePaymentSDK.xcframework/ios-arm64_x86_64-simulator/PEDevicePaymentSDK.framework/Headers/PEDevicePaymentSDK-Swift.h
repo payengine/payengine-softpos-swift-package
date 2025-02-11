@@ -743,7 +743,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 - (void)cancelTransaction;
 - (GetTransactionsResponse * _Nullable)getTransactionsWithPage:(NSInteger)page queryParams:(NSDictionary<NSString *, NSString *> * _Nonnull)queryParams error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSString * _Nonnull generalDeviceId;
 /// Version Number
 /// Return the SDK version number
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull versionNumber;)
@@ -1671,7 +1670,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 - (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request;
 - (void)cancelTransaction;
 - (GetTransactionsResponse * _Nullable)getTransactionsWithPage:(NSInteger)page queryParams:(NSDictionary<NSString *, NSString *> * _Nonnull)queryParams error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSString * _Nonnull generalDeviceId;
 /// Version Number
 /// Return the SDK version number
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull versionNumber;)
