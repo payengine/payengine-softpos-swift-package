@@ -420,48 +420,6 @@
           },
           {
             "kind": "Var",
-            "name": "NMI_SECURITY_KEY",
-            "printedName": "NMI_SECURITY_KEY",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PEDevicePaymentSDK.IDType.Type) -> PEDevicePaymentSDK.IDType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IDType",
-                    "printedName": "PEDevicePaymentSDK.IDType",
-                    "usr": "c:@M@PEDevicePaymentSDK@E@IDType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PEDevicePaymentSDK.IDType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IDType",
-                        "printedName": "PEDevicePaymentSDK.IDType",
-                        "usr": "c:@M@PEDevicePaymentSDK@E@IDType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@PEDevicePaymentSDK@E@IDType@IDTypeNMI_SECURITY_KEY",
-            "mangledName": "$s18PEDevicePaymentSDK6IDTypeO16NMI_SECURITY_KEYyA2CmF",
-            "moduleName": "PEDevicePaymentSDK",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1
-          },
-          {
-            "kind": "Var",
             "name": "PROCESSOR_MID",
             "printedName": "PROCESSOR_MID",
             "children": [
@@ -500,7 +458,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Constructor",
@@ -17399,12 +17357,14 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
                 "name": "IDType",
                 "printedName": "PEDevicePaymentSDK.IDType",
+                "hasDefaultArg": true,
                 "usr": "c:@M@PEDevicePaymentSDK@E@IDType"
               },
               {
@@ -17469,12 +17429,14 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
                 "name": "IDType",
                 "printedName": "PEDevicePaymentSDK.IDType",
+                "hasDefaultArg": true,
                 "usr": "c:@M@PEDevicePaymentSDK@E@IDType"
               },
               {
@@ -23460,16 +23422,9 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/IDType.swift",
       "kind": "IntegerLiteral",
-      "offset": 404,
-      "length": 16,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/IDType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 468,
+      "offset": 472,
       "length": 13,
-      "value": "2"
+      "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
@@ -23565,28 +23520,28 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1201,
+      "offset": 1533,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 2378,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2647,
+      "offset": 2979,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3420,
+      "offset": 3696,
       "length": 5,
       "value": "\"USD\""
     },
@@ -25259,56 +25214,56 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 9067,
+      "offset": 9099,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Dictionary",
-      "offset": 9102,
+      "offset": 9134,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9483,
+      "offset": 9515,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9527,
+      "offset": 9559,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9633,
+      "offset": 9665,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9666,
+      "offset": 9698,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9693,
+      "offset": 9725,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9710,
+      "offset": 9742,
       "length": 1,
       "value": "\"\""
     },

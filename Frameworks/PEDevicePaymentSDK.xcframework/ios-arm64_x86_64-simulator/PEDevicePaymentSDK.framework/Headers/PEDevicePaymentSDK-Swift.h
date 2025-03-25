@@ -338,10 +338,8 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK23GetTransactionsResponse")
 typedef SWIFT_ENUM(NSInteger, IDType, open) {
 /// A PayEngine Merchant ID.
   IDTypePE_MID = 0,
-/// An NMI Security Key.
-  IDTypeNMI_SECURITY_KEY = 1,
 /// A Processor Merchant ID.
-  IDTypePROCESSOR_MID = 2,
+  IDTypePROCESSOR_MID = 1,
 };
 
 @class NSString;
@@ -771,8 +769,6 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 /// Initializes a new payment request with the specified transaction amount, transaction data, and currency code.
 /// \param transactionAmount The amount of the transaction.
 ///
-/// \param transactionData Optional transaction data.
-///
 /// \param currencyCode The currency code for the transaction
 ///
 - (nonnull instancetype)initWithTransactionAmount:(NSDecimal)transactionAmount currencyCode:(NSString * _Nonnull)currencyCode OBJC_DESIGNATED_INITIALIZER;
@@ -781,9 +777,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 ///
 /// \param transactionAmount The amount of the transaction.
 ///
-/// \param originalTransactionID The original transaction ID, if applicable.
-///
-/// \param transactionData Optional transaction data.
+/// \param originalTransactionId The original transaction ID, if applicable.
 ///
 /// \param currencyCode The currency code for the transaction.
 ///
@@ -1265,10 +1259,8 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK23GetTransactionsResponse")
 typedef SWIFT_ENUM(NSInteger, IDType, open) {
 /// A PayEngine Merchant ID.
   IDTypePE_MID = 0,
-/// An NMI Security Key.
-  IDTypeNMI_SECURITY_KEY = 1,
 /// A Processor Merchant ID.
-  IDTypePROCESSOR_MID = 2,
+  IDTypePROCESSOR_MID = 1,
 };
 
 @class NSString;
@@ -1698,8 +1690,6 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 /// Initializes a new payment request with the specified transaction amount, transaction data, and currency code.
 /// \param transactionAmount The amount of the transaction.
 ///
-/// \param transactionData Optional transaction data.
-///
 /// \param currencyCode The currency code for the transaction
 ///
 - (nonnull instancetype)initWithTransactionAmount:(NSDecimal)transactionAmount currencyCode:(NSString * _Nonnull)currencyCode OBJC_DESIGNATED_INITIALIZER;
@@ -1708,9 +1698,7 @@ SWIFT_CLASS("_TtC18PEDevicePaymentSDK16PEPaymentRequest")
 ///
 /// \param transactionAmount The amount of the transaction.
 ///
-/// \param originalTransactionID The original transaction ID, if applicable.
-///
-/// \param transactionData Optional transaction data.
+/// \param originalTransactionId The original transaction ID, if applicable.
 ///
 /// \param currencyCode The currency code for the transaction.
 ///
