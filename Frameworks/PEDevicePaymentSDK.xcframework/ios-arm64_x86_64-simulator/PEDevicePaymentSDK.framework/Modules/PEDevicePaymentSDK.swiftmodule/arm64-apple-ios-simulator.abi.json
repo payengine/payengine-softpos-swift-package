@@ -44482,35 +44482,6 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.IPEEnvironment>",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCustomClientCertificate",
-            "printedName": "getCustomClientCertificate()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.NSData?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18PEDevicePaymentSDK14IPEEnvironmentPAAE26getCustomClientCertificateSo6NSDataCSgyF",
-            "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentPAAE26getCustomClientCertificateSo6NSDataCSgyF",
-            "moduleName": "PEDevicePaymentSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.IPEEnvironment>",
-            "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.IPEEnvironment>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
