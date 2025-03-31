@@ -11888,6 +11888,40 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomClientCertificate",
+            "printedName": "getCustomClientCertificate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)IPEEnvironment(im)getCustomClientCertificate",
+            "mangledName": "$s18PEDevicePaymentSDK14IPEEnvironmentP26getCustomClientCertificateSo6NSDataCSgyF",
+            "moduleName": "PEDevicePaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.IPEEnvironment>",
+            "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.IPEEnvironment>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -24059,7 +24093,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
       "kind": "StringLiteral",
-      "offset": 259,
+      "offset": 264,
       "length": 17,
       "value": "\"ws.payengine.co\""
     },
@@ -24883,6 +24917,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/URLSesionClientCertificateHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 25,
+      "value": "\"ios-client-cert.sandbox\""
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/URLSesionClientCertificateHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 186,
@@ -25389,7 +25437,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 270,
       "length": 34,
       "value": "\"sandbox-staging-ws.payengine.dev\""
     },

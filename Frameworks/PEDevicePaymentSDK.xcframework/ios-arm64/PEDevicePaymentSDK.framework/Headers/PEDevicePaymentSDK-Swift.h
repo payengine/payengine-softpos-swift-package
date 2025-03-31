@@ -303,7 +303,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
 /// An enum representing the different types of payment devices.
 /// This enum provides cases for Bluetooth, USB, and Tap To Pay devices.
 typedef SWIFT_ENUM(NSInteger, DeviceType, open) {
@@ -343,11 +342,14 @@ typedef SWIFT_ENUM(NSInteger, IDType, open) {
 };
 
 @class NSString;
+@class NSData;
 
 SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK14IPEEnvironment_")
 @protocol IPEEnvironment
 @property (nonatomic, readonly, copy) NSString * _Nonnull socketHostname;
 @property (nonatomic, readonly, copy) NSString * _Nonnull apiHostname;
+@optional
+- (NSData * _Nullable)getCustomClientCertificate SWIFT_WARN_UNUSED_RESULT;
 @end
 
 

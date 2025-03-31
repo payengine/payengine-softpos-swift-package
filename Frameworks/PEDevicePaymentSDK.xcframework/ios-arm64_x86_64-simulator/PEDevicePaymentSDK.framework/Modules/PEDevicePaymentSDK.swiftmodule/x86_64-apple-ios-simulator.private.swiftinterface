@@ -479,6 +479,7 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
 @objc public protocol IPEEnvironment {
   @objc var socketHostname: Swift.String { get }
   @objc var apiHostname: Swift.String { get }
+  @objc optional func getCustomClientCertificate() -> Foundation.NSData?
 }
 @objc @objcMembers public class PaymentResult : ObjectiveC.NSObject, Swift.Decodable {
   @objc final public let data: PEDevicePaymentSDK.PaymentResultData?
