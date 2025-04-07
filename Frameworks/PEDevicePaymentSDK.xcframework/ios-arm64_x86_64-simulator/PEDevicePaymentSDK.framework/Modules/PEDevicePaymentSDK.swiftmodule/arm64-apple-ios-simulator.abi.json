@@ -80576,6 +80576,35 @@
           },
           {
             "kind": "Function",
+            "name": "isCancelled",
+            "printedName": "isCancelled(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PEDevicePaymentSDK0A3TTPC11isCancelled5errorSbs5Error_p_tFZ",
+            "mangledName": "$s18PEDevicePaymentSDK0A3TTPC11isCancelled5errorSbs5Error_p_tFZ",
+            "moduleName": "PEDevicePaymentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "configureTTPToken",
             "printedName": "configureTTPToken(_:)",
             "children": [
