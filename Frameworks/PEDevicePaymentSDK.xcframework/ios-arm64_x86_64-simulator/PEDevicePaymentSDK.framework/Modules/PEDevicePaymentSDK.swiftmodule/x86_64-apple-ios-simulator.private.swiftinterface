@@ -19,9 +19,13 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
 @objc public class TerminalInfo : ObjectiveC.NSObject, Swift.Codable {
+  final public let deviceId: Swift.String
   final public let merchantId: Swift.String
   final public let merchantName: Swift.String
   final public let terminalFriendlyName: Swift.String
+  public var sdkVersion: Swift.String {
+    get
+  }
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
