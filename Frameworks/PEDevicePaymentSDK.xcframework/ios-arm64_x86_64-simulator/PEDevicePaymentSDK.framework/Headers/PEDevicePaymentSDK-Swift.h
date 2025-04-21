@@ -607,6 +607,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK24PEInitializationDelegate_")
 /// When educational screens have been dismissed
 - (void)onEducationScreenDismissed;
 @required
+/// Gets invoked once the sdk has been successfully deinitialized
 - (void)onDeinitialized;
 @end
 
@@ -766,10 +767,23 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 /// \param delegate Device delegate
 ///
 - (void)connectWithDevice:(id <PEDevice> _Nonnull)device delegate:(id <PEDeviceDelegate> _Nonnull)delegate;
+/// Deinitializes the SDK, disconnects connected devices, and resets internal state.
+/// This method releases all allocated resources, disconnects from the active socket,
+/// deinitializes connected devices, and resets the SDK to an uninitialized state.
+/// After cleanup, it invokes <code>PEInitializationDelegate.onDeinitialized</code> and nullifies related delegates.
 - (void)deinitialize;
 - (void)selectDeviceWithDevice:(DiscoverableDevice * _Nonnull)device;
 - (void)selectLcdOptionWithValue:(uint8_t)value;
-/// Start new transaction
+/// Starts a new payment transaction using the provided request.
+/// This method initiates the transaction flow based on the type specified in the <code>PEPaymentRequest</code>,
+/// such as sale, refund, verification, or balance inquiry. The transaction is processed using the
+/// currently connected device.
+/// \param request The payment request containing transaction details.
+///
+/// \param transactionResultViewController An optional result handler object that, if provided,
+/// will be used to handle the completion of the transaction. After the card read step is dismissed,
+/// the SDK will automatically invoke the result callback defined in this handler.
+///
 - (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request transactionResultViewController:(PETransactionResultViewController * _Nullable)transactionResultViewController;
 - (void)cancelTransaction;
 - (GetTransactionsResponse * _Nullable)getTransactionsWithPage:(NSInteger)page queryParams:(NSDictionary<NSString *, NSString *> * _Nonnull)queryParams error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
@@ -874,6 +888,15 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
 @end
 
 
+/// A result handler used to receive a callback when a transaction result is dismissed.
+/// This class is used to observe the end of a transaction flow. It provides a callback
+/// that is triggered after the transaction UI is dismissed. Despite its name, it is <em>not</em>
+/// a subclass of <code>UIViewController</code>.
+/// Use this to perform custom actions (e.g., navigate or update UI) after the user finishes
+/// interacting with the transaction UI.
+/// note:
+/// The <code>onDismissed</code> closure is invoked automatically when the SDK finishes presenting
+/// any transaction-related UI.
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK33PETransactionResultViewController")
 @interface PETransactionResultViewController : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1599,6 +1622,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK24PEInitializationDelegate_")
 /// When educational screens have been dismissed
 - (void)onEducationScreenDismissed;
 @required
+/// Gets invoked once the sdk has been successfully deinitialized
 - (void)onDeinitialized;
 @end
 
@@ -1758,10 +1782,23 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 /// \param delegate Device delegate
 ///
 - (void)connectWithDevice:(id <PEDevice> _Nonnull)device delegate:(id <PEDeviceDelegate> _Nonnull)delegate;
+/// Deinitializes the SDK, disconnects connected devices, and resets internal state.
+/// This method releases all allocated resources, disconnects from the active socket,
+/// deinitializes connected devices, and resets the SDK to an uninitialized state.
+/// After cleanup, it invokes <code>PEInitializationDelegate.onDeinitialized</code> and nullifies related delegates.
 - (void)deinitialize;
 - (void)selectDeviceWithDevice:(DiscoverableDevice * _Nonnull)device;
 - (void)selectLcdOptionWithValue:(uint8_t)value;
-/// Start new transaction
+/// Starts a new payment transaction using the provided request.
+/// This method initiates the transaction flow based on the type specified in the <code>PEPaymentRequest</code>,
+/// such as sale, refund, verification, or balance inquiry. The transaction is processed using the
+/// currently connected device.
+/// \param request The payment request containing transaction details.
+///
+/// \param transactionResultViewController An optional result handler object that, if provided,
+/// will be used to handle the completion of the transaction. After the card read step is dismissed,
+/// the SDK will automatically invoke the result callback defined in this handler.
+///
 - (void)startTransactionWithRequest:(PEPaymentRequest * _Nonnull)request transactionResultViewController:(PETransactionResultViewController * _Nullable)transactionResultViewController;
 - (void)cancelTransaction;
 - (GetTransactionsResponse * _Nullable)getTransactionsWithPage:(NSInteger)page queryParams:(NSDictionary<NSString *, NSString *> * _Nonnull)queryParams error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
@@ -1866,6 +1903,15 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK15PEPaymentResult_")
 @end
 
 
+/// A result handler used to receive a callback when a transaction result is dismissed.
+/// This class is used to observe the end of a transaction flow. It provides a callback
+/// that is triggered after the transaction UI is dismissed. Despite its name, it is <em>not</em>
+/// a subclass of <code>UIViewController</code>.
+/// Use this to perform custom actions (e.g., navigate or update UI) after the user finishes
+/// interacting with the transaction UI.
+/// note:
+/// The <code>onDismissed</code> closure is invoked automatically when the SDK finishes presenting
+/// any transaction-related UI.
 SWIFT_CLASS("_TtC18PEDevicePaymentSDK33PETransactionResultViewController")
 @interface PETransactionResultViewController : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

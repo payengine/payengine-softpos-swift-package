@@ -6408,6 +6408,123 @@
           },
           {
             "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)TransactionAuthorizationViewController(py)failureReason",
+            "mangledName": "$s18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC13failureReasonSo7UILabelCSgvp",
+            "moduleName": "PEDevicePaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)TransactionAuthorizationViewController(im)failureReason",
+                "mangledName": "$s18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC13failureReasonSo7UILabelCSgvg",
+                "moduleName": "PEDevicePaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PEDevicePaymentSDK@objc(cs)TransactionAuthorizationViewController(im)setFailureReason:",
+                "mangledName": "$s18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC13failureReasonSo7UILabelCSgvs",
+                "moduleName": "PEDevicePaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC13failureReasonSo7UILabelCSgvM",
+                "mangledName": "$s18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC13failureReasonSo7UILabelCSgvM",
+                "moduleName": "PEDevicePaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "closeButton",
             "printedName": "closeButton",
             "children": [
@@ -6431,7 +6548,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -6548,7 +6665,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true
           },
@@ -6584,7 +6701,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -6700,7 +6817,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -6837,17 +6954,23 @@
           {
             "kind": "Function",
             "name": "showDeclinedState",
-            "printedName": "showDeclinedState()",
+            "printedName": "showDeclinedState(with:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC17showDeclinedStateyyF",
-            "mangledName": "$s18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC17showDeclinedStateyyF",
+            "usr": "s:18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC17showDeclinedState4withySS_tF",
+            "mangledName": "$s18PEDevicePaymentSDK38TransactionAuthorizationViewControllerC17showDeclinedState4withySS_tF",
             "moduleName": "PEDevicePaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -11360,6 +11483,7 @@
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEInitializationDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -26312,7 +26436,8 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "superclassNames": [
@@ -89134,7 +89259,8 @@
             "objc_name": "deinitialize",
             "declAttributes": [
               "ObjC",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -108364,56 +108490,56 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 11909,
+      "offset": 12993,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Dictionary",
-      "offset": 11944,
+      "offset": 13028,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12325,
+      "offset": 13409,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12369,
+      "offset": 13453,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12475,
+      "offset": 13559,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12508,
+      "offset": 13592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12535,
+      "offset": 13619,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12552,
+      "offset": 13636,
       "length": 1,
       "value": "\"\""
     },
