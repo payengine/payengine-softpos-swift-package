@@ -26,6 +26,7 @@ import zlib
   public var sdkVersion: Swift.String {
     get
   }
+  @objc public init(deviceId: Swift.String, merchantId: Swift.String, merchantName: Swift.String, terminalFriendlyName: Swift.String)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -62,6 +63,7 @@ import zlib
   @objc optional func willLaunchEducationalScreen()
   @objc optional func didLaunchEducationalScreen()
   @objc optional func onEducationScreenDismissed()
+  @objc func onDeinitialized()
 }
 @_hasMissingDesignatedInitializers @objc public class PEPaymentRequest : ObjectiveC.NSObject, Swift.Codable {
   final public let transactionAmount: Foundation.Decimal
@@ -108,6 +110,10 @@ import zlib
   @objc override dynamic public init()
   @objc deinit
 }
+@objc public class PETransactionResultViewController : ObjectiveC.NSObject {
+  public init(onDismissed: @escaping () -> Swift.Void)
+  @objc deinit
+}
 @objc public protocol PEDevice {
   @objc var deviceType: PEDevicePaymentSDK.DeviceType { get }
   @objc var deviceId: Swift.String? { get }
@@ -116,7 +122,8 @@ import zlib
   func initialize(license: Swift.String?, id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc func initialize(id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc func connect(delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
-  @objc func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest)
+  @objc func deinitialize()
+  @objc func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest, transactionResultViewController: PEDevicePaymentSDK.PETransactionResultViewController?)
   @objc func cancelTransaction()
   @objc func selectDevice(device: PEDevicePaymentSDK.DiscoverableDevice)
   @objc func selectLcdOption(value: Swift.UInt8)
@@ -600,9 +607,10 @@ extension Swift.Encodable {
   @objc public func initialize(license: Swift.String?, id: Swift.String? = nil, idType: PEDevicePaymentSDK.IDType = .PE_MID, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc public func connect(delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc public func connect(device: any PEDevicePaymentSDK.PEDevice, delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
+  @objc public func deinitialize()
   @objc public func selectDevice(device: PEDevicePaymentSDK.DiscoverableDevice)
   @objc public func selectLcdOption(value: Swift.UInt8)
-  @objc public func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest)
+  @objc public func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest, transactionResultViewController: PEDevicePaymentSDK.PETransactionResultViewController?)
   @objc public func cancelTransaction()
   @objc public func getTransactions(page: Swift.Int = 1, queryParams: [Swift.String : Swift.String] = [:]) throws -> PEDevicePaymentSDK.GetTransactionsResponse
   @objc public static var versionNumber: Swift.String {
@@ -613,6 +621,31 @@ extension Swift.Encodable {
   @_documentation(visibility: private) @objc public static func uploadFCMToken(token: Swift.String)
   @_documentation(visibility: private) @objc public static func clearData()
   @objc deinit
+}
+extension PEDevicePaymentSDK.PEPaymentDevice : PEDevicePaymentSDK.PEInitializationDelegate {
+  @objc dynamic public func onInitialized(availableDevices: [any PEDevicePaymentSDK.PEDevice])
+  @objc dynamic public func onInitFailed(error: any Swift.Error)
+  @objc dynamic public func onActivationRequired(activationCode: Swift.String)
+  @objc dynamic public func onActivationStarting(terminalInfo: PEDevicePaymentSDK.TerminalInfo)
+  @objc dynamic public func willLaunchEducationalScreen()
+  @objc dynamic public func didLaunchEducationalScreen()
+  @objc dynamic public func onEducationScreenDismissed()
+  @objc dynamic public func onDeinitialized()
+}
+extension PEDevicePaymentSDK.PEPaymentDevice : PEDevicePaymentSDK.PEDeviceDelegate {
+  @objc dynamic public func onDeviceSelected(device: any PEDevicePaymentSDK.PEDevice)
+  @objc dynamic public func onActivationProgress(device: any PEDevicePaymentSDK.PEDevice, completed: Swift.Int)
+  @objc dynamic public func onConnected(device: any PEDevicePaymentSDK.PEDevice)
+  @objc dynamic public func onConnectionFailed(device: any PEDevicePaymentSDK.PEDevice, error: any Swift.Error)
+  @objc dynamic public func onCardRead(success: Swift.Bool)
+  @objc dynamic public func onDiscoveringDevice(_ searching: Swift.Bool)
+  @objc dynamic public func onDeviceDiscovered(_ device: PEDevicePaymentSDK.DiscoverableDevice)
+  @objc dynamic public func onLcdConfirmation(_ message: Swift.String)
+  @objc dynamic public func onLcdMessage(_ message: Swift.String)
+  @objc dynamic public func didStartTransaction(_ request: PEDevicePaymentSDK.PEPaymentRequest)
+  @objc dynamic public func didStartAuthorization(_ request: PEDevicePaymentSDK.PEPaymentRequest)
+  @objc dynamic public func onTransactionCompleted(transaction: any PEDevicePaymentSDK.PEPaymentResult)
+  @objc dynamic public func onTransactionFailed(transaction: any PEDevicePaymentSDK.PEPaymentResult)
 }
 @objc public enum PETransactionType : Swift.Int, Swift.Codable {
   case SALE = 1
