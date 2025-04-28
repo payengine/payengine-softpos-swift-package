@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name PEDevicePaymentSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
@@ -111,6 +111,7 @@ import zlib
   @objc deinit
 }
 @objc public class PETransactionResultViewController : ObjectiveC.NSObject {
+  final public let onDismissed: () -> Swift.Void
   public init(onDismissed: @escaping () -> Swift.Void)
   @objc deinit
 }
@@ -492,20 +493,6 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
   @objc var apiHostname: Swift.String { get }
   @objc optional func getCustomClientCertificate() -> Foundation.NSData?
 }
-@objc @objcMembers public class PaymentResult : ObjectiveC.NSObject, Swift.Decodable {
-  @objc final public let data: PEDevicePaymentSDK.PaymentResultData?
-  final public let error: Swift.Bool?
-  @objc final public let message: Swift.String?
-  @objc deinit
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@objc @objcMembers public class PaymentResultData : ObjectiveC.NSObject, Swift.Decodable {
-  @objc final public let ID: Swift.String
-  @objc final public let MerchantID: Swift.String
-  @objc final public let TransactionID: Swift.String
-  @objc deinit
-  required public init(from decoder: any Swift.Decoder) throws
-}
 @objc @objcMembers public class PaymentResultHostReport : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let status: Swift.String
   @objc final public let responseCode: Swift.String
@@ -527,28 +514,6 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-}
-public enum PEError : Swift.Error {
-  case invalidMID(code: Swift.Int = 0, message: Swift.String = "Invalid MID")
-  case disconnectError(code: Swift.Int = 1, message: Swift.String = "Disconnected from server")
-  case versionNotSupported(code: Swift.Int = 2, message: Swift.String = "Only iOS 17 and above is supported")
-  case paymentCardError(code: Swift.Int = 3, message: Swift.String = "Payment Card Reader Error")
-  case initializationError(code: Swift.Int = 4, message: Swift.String = "Initialization failed")
-  case unsupportedDeviceError(code: Swift.Int = 5, message: Swift.String = "Device type not supported")
-  case usbUnrecognizedError(code: Swift.Int = 6, message: Swift.String = "Unable to recognize USB device")
-  case connectTimeoutError(code: Swift.Int = 7, message: Swift.String = "Timed out connecting to device")
-  case notConnectedError(code: Swift.Int = 8, message: Swift.String = "No device connected")
-  case noCurrentActiveTransaction(code: Swift.Int = 9, message: Swift.String = "No current active transaction")
-  case transactionNotAllowed(code: Swift.Int = 10, message: Swift.String = "Transaction is not allowed")
-  case cardReaderError(error: ProximityReader.PaymentCardReaderError)
-  case parameterError(code: Swift.Int, message: Swift.String)
-  case common(message: Swift.String)
-  case deactivated(message: Swift.String, activationCode: Swift.String)
-}
-extension PEDevicePaymentSDK.PEError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
 }
 @objc public enum DeviceType : Swift.Int, Swift.Decodable, Swift.Encodable {
   case BT
@@ -580,6 +545,10 @@ extension Swift.Encodable {
   @objc var responseMessage: Swift.String? { get }
   @objc var amount: Swift.String? { get }
   @objc var currencyCode: Swift.String? { get }
+  @objc var gatewayId: Swift.String? { get }
+  @objc var deviceId: Swift.String? { get }
+  @objc var token: Swift.String? { get }
+  @objc var internalTransactionId: Swift.String? { get }
   @objc var hostReport: PEDevicePaymentSDK.PaymentResultHostReport? { get }
   @objc var error: PEDevicePaymentSDK.PECardReaderError? { get }
 }
