@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name PEDevicePaymentSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
@@ -551,6 +551,27 @@ extension Swift.Encodable {
   @objc var internalTransactionId: Swift.String? { get }
   @objc var hostReport: PEDevicePaymentSDK.PaymentResultHostReport? { get }
   @objc var error: PEDevicePaymentSDK.PECardReaderError? { get }
+}
+extension PEDevicePaymentSDK.PEPaymentResult {
+  public func asCodable() -> PEDevicePaymentSDK.TTPPaymentResult
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class TTPPaymentResult : ObjectiveC.NSObject, PEDevicePaymentSDK.PEPaymentResult, Swift.Codable {
+  @objc public var transactionType: PEDevicePaymentSDK.PETransactionType
+  @objc public var isSuccess: Swift.Bool
+  @objc public var transactionId: Swift.String?
+  @objc public var responseCode: Swift.String?
+  @objc public var responseMessage: Swift.String?
+  @objc public var amount: Swift.String?
+  @objc public var currencyCode: Swift.String?
+  @objc public var gatewayId: Swift.String?
+  @objc public var deviceId: Swift.String?
+  @objc public var token: Swift.String?
+  @objc public var internalTransactionId: Swift.String?
+  @objc public var hostReport: PEDevicePaymentSDK.PaymentResultHostReport?
+  @objc public var error: PEDevicePaymentSDK.PECardReaderError?
+  required convenience public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class PECardReaderError : ObjectiveC.NSObject, Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
