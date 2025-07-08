@@ -120,8 +120,8 @@ import zlib
   @objc var deviceId: Swift.String? { get }
   @objc var connected: Swift.Bool { get }
   @objc @available(*, deprecated, message: "license is no longer needed. Use initialize(id:idType:mode:delegate:)")
-  func initialize(license: Swift.String?, id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
-  @objc func initialize(id: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  func initialize(license: Swift.String?, id: Swift.String?, bannerName: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @objc func initialize(id: Swift.String?, bannerName: Swift.String?, idType: PEDevicePaymentSDK.IDType, mode: PEDevicePaymentSDK.TransactionMode, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc func connect(delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc func deinitialize()
   @objc func startTransaction(request: PEDevicePaymentSDK.PEPaymentRequest, transactionResultViewController: PEDevicePaymentSDK.PETransactionResultViewController?)
@@ -592,9 +592,9 @@ extension PEDevicePaymentSDK.PEPaymentResult {
   @objc public static var shared: PEDevicePaymentSDK.PEPaymentDevice
   @objc public static var environment: any PEDevicePaymentSDK.IPEEnvironment
   @objc public var deviceType: PEDevicePaymentSDK.DeviceType
-  @objc public func initialize(id: Swift.String? = nil, idType: PEDevicePaymentSDK.IDType = .PE_MID, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @objc public func initialize(id: Swift.String? = nil, bannerName: Swift.String? = nil, idType: PEDevicePaymentSDK.IDType = .PE_MID, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @available(*, deprecated, message: "license is no longer needed. Use initialize(id:idType:mode:delegate:)")
-  @objc public func initialize(license: Swift.String?, id: Swift.String? = nil, idType: PEDevicePaymentSDK.IDType = .PE_MID, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
+  @objc public func initialize(license: Swift.String?, id: Swift.String? = nil, bannerName: Swift.String? = nil, idType: PEDevicePaymentSDK.IDType = .PE_MID, mode: PEDevicePaymentSDK.TransactionMode = .device, delegate: any PEDevicePaymentSDK.PEInitializationDelegate)
   @objc public func connect(delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc public func connect(device: any PEDevicePaymentSDK.PEDevice, delegate: any PEDevicePaymentSDK.PEDeviceDelegate)
   @objc public func deinitialize()

@@ -3821,12 +3821,26 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(license:id:idType:mode:delegate:)",
+            "printedName": "initialize(license:id:bannerName:idType:mode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3876,8 +3890,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)initializeWithLicense:id:idType:mode:delegate:",
-            "mangledName": "$s18PEDevicePaymentSDK0A0P10initialize7license2id0F4Type4mode8delegateySSSg_AjA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)initializeWithLicense:id:bannerName:idType:mode:delegate:",
+            "mangledName": "$s18PEDevicePaymentSDK0A0P10initialize7license2id10bannerName0F4Type4mode8delegateySSSg_A2kA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
             "moduleName": "PEDevicePaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDevice>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDevice>",
@@ -3894,12 +3908,26 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(id:idType:mode:delegate:)",
+            "printedName": "initialize(id:bannerName:idType:mode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3935,8 +3963,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)initializeWithId:idType:mode:delegate:",
-            "mangledName": "$s18PEDevicePaymentSDK0A0P10initialize2id0E4Type4mode8delegateySSSg_AA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(pl)PEDevice(im)initializeWithId:bannerName:idType:mode:delegate:",
+            "mangledName": "$s18PEDevicePaymentSDK0A0P10initialize2id10bannerName0E4Type4mode8delegateySSSg_AjA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
             "moduleName": "PEDevicePaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PEDevicePaymentSDK.PEDevice>",
             "sugared_genericSig": "<Self where Self : PEDevicePaymentSDK.PEDevice>",
@@ -13900,6 +13928,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18187,12 +18225,27 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(id:idType:mode:delegate:)",
+            "printedName": "initialize(id:bannerName:idType:mode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -18231,10 +18284,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)initializeWithId:idType:mode:delegate:",
-            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC10initialize2id0G4Type4mode8delegateySSSg_AA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)initializeWithId:bannerName:idType:mode:delegate:",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC10initialize2id10bannerName0G4Type4mode8delegateySSSg_AjA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
             "moduleName": "PEDevicePaymentSDK",
-            "objc_name": "initializeWithId:idType:mode:delegate:",
+            "objc_name": "initializeWithId:bannerName:idType:mode:delegate:",
             "declAttributes": [
               "ObjC",
               "AccessControl",
@@ -18245,7 +18298,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(license:id:idType:mode:delegate:)",
+            "printedName": "initialize(license:id:bannerName:idType:mode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18264,6 +18317,21 @@
                     "usr": "s:SS"
                   }
                 ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -18303,11 +18371,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)initializeWithLicense:id:idType:mode:delegate:",
-            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC10initialize7license2id0H4Type4mode8delegateySSSg_AjA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
+            "usr": "c:@M@PEDevicePaymentSDK@objc(cs)PEPaymentDevice(im)initializeWithLicense:id:bannerName:idType:mode:delegate:",
+            "mangledName": "$s18PEDevicePaymentSDK15PEPaymentDeviceC10initialize7license2id10bannerName0H4Type4mode8delegateySSSg_A2kA6IDTypeOAA15TransactionModeOAA24PEInitializationDelegate_ptF",
             "moduleName": "PEDevicePaymentSDK",
             "deprecated": true,
-            "objc_name": "initializeWithLicense:id:idType:mode:delegate:",
+            "objc_name": "initializeWithLicense:id:bannerName:idType:mode:delegate:",
             "declAttributes": [
               "ObjC",
               "AccessControl",
@@ -24935,6 +25003,13 @@
       "value": "\"87.Account_Balance_2\""
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/TransactionAuthorizationScreen\/TransactionAuthorizationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 14,
+      "value": "\"Canceling...\""
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1373,
@@ -26176,28 +26251,28 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "StringLiteral",
-      "offset": 309,
+      "offset": 322,
       "length": 33,
       "value": "\"application\/json; charset=utf-8\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1497,
+      "offset": 1510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5750,
+      "offset": 5763,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "Dictionary",
-      "offset": 5785,
+      "offset": 5798,
       "length": 3,
       "value": "[]"
     },
@@ -26722,7 +26797,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
       "kind": "BooleanLiteral",
-      "offset": 2175,
+      "offset": 2498,
       "length": 4,
       "value": "true"
     },
@@ -27149,21 +27224,21 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
-      "offset": 460,
+      "offset": 496,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
-      "offset": 751,
+      "offset": 787,
       "length": 5,
       "value": "false"
     },
@@ -27275,105 +27350,105 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 2172,
+      "offset": 2177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 2662,
+      "offset": 2810,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3341,
+      "offset": 3489,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3384,
+      "offset": 3532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3699,
+      "offset": 3883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 4058,
+      "offset": 4242,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13457,
+      "offset": 13965,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Dictionary",
-      "offset": 13492,
+      "offset": 14000,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 13873,
+      "offset": 14381,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 13917,
+      "offset": 14425,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14023,
+      "offset": 14531,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14056,
+      "offset": 14564,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14083,
+      "offset": 14591,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14100,
+      "offset": 14608,
       "length": 1,
       "value": "\"\""
     },

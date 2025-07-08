@@ -417,6 +417,9 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 ///     id: Merchant ID.
 ///   </li>
 ///   <li>
+///     bannerName: Name of the merchant that appears in the Tap to Pay on iPhone UI during card reads
+///   </li>
+///   <li>
 ///     idType: Merchant ID type.
 ///   </li>
 ///   <li>
@@ -429,7 +432,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 ///     delegate: Delegate to receive initialization callbacks.
 ///   </li>
 /// </ul>
-- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
+- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id bannerName:(NSString * _Nullable)bannerName idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
 /// Initializes device instance.
 /// Establishes a connection between the app and PayEngine System by performing the following steps:
 /// <ol>
@@ -454,6 +457,9 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 ///     id: Merchant ID.
 ///   </li>
 ///   <li>
+///     bannerName: Name of the merchant that appears in the Tap to Pay on iPhone UI during card reads
+///   </li>
+///   <li>
 ///     idType: Merchant ID type.
 ///   </li>
 ///   <li>
@@ -466,7 +472,7 @@ SWIFT_PROTOCOL("_TtP18PEDevicePaymentSDK8PEDevice_")
 ///     delegate: Delegate to receive initialization callbacks.
 ///   </li>
 /// </ul>
-- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithId:(NSString * _Nullable)id bannerName:(NSString * _Nullable)bannerName idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 /// <code>connect</code> method’s main job is to initiate the connection between the app and chosen device type.
 /// Generally this will prepare the terminal TTP or BT/USB device to be ready for transaction processing.
 /// \param delegate Delegate to receive initialization callbacks.
@@ -744,25 +750,29 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <IPEEnvironment> _N
 /// Initializes device instance
 /// \param id Merchant ID
 ///
+/// \param bannerName Name of the merchant that appears in the Tap to Pay on iPhone UI during card reads
+///
 /// \param idType Merchant ID type
 ///
 /// \param mode Companion mode whether the transaction is allowed to initiated via API or just from device
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithId:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
+- (void)initializeWithId:(NSString * _Nullable)id bannerName:(NSString * _Nullable)bannerName idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate;
 /// Initializes device instance
 /// \param license License string obtained from PayEngine support
 ///
 /// \param id Merchant ID
 ///
+/// \param bannerName Name of the merchant that appears in the Tap to Pay on iPhone UI during card reads
+///
 /// \param idType Merchant ID type
 ///
 /// \param mode Companion mode whether the transaction is allowed to initiated via API or just from device
 ///
 /// \param delegate Delegate to receive initialization callbacks
 ///
-- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
+- (void)initializeWithLicense:(NSString * _Nullable)license id:(NSString * _Nullable)id bannerName:(NSString * _Nullable)bannerName idType:(enum IDType)idType mode:(enum TransactionMode)mode delegate:(id <PEInitializationDelegate> _Nonnull)delegate SWIFT_DEPRECATED_MSG("license is no longer needed. Use initialize(id:idType:mode:delegate:)");
 - (void)connectWithDelegate:(id <PEDeviceDelegate> _Nonnull)delegate;
 /// Connect to the specific device type
 /// \param device Selected device
