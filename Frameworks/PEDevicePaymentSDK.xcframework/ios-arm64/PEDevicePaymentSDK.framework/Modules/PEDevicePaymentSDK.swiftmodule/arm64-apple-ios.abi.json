@@ -27243,6 +27243,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18072,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "StringLiteral",
       "offset": 1361,
