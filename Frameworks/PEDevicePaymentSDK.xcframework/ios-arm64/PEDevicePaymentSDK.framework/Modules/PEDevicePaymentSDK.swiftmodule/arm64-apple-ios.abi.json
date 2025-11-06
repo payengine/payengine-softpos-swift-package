@@ -24793,2926 +24793,2940 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/BLEDeviceSelection.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/BLEDeviceSelection.swift",
       "kind": "Array",
       "offset": 244,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1262,
       "length": 15,
       "value": "\"RD.Device_Tag\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1306,
       "length": 18,
       "value": "\"02.Response_Code\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1359,
       "length": 25,
       "value": "\"02.Issuer_Response_Code\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1420,
       "length": 25,
       "value": "\"02.Authorization_Source\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 17,
       "value": "\"02.Capture_Code\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1519,
       "length": 18,
       "value": "\"02.Approval_Code\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1571,
       "length": 23,
       "value": "\"02.Authorization_Date\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1628,
       "length": 23,
       "value": "\"02.Authorization_Time\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1679,
       "length": 17,
       "value": "\"02.Batch_Number\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1725,
       "length": 18,
       "value": "\"02.Record_Number\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1781,
       "length": 27,
       "value": "\"02.Authorization_Response\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1836,
       "length": 17,
       "value": "\"02.Trace_Number\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1896,
       "length": 30,
       "value": "\"02.Transaction_Reference_Nbr\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1950,
       "length": 13,
       "value": "\"02.OAR_Data\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 1994,
       "length": 20,
       "value": "\"02.Spend_Qualifier\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2046,
       "length": 21,
       "value": "\"02.Association_Name\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2099,
       "length": 22,
       "value": "\"80.Amex_Capture_Code\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2149,
       "length": 17,
       "value": "\"80.AVS_Response\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2195,
       "length": 18,
       "value": "\"80.CVV2_Response\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2240,
       "length": 16,
       "value": "\"80.PS2000_Data\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2277,
       "length": 9,
       "value": "\"80.MSDI\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2313,
       "length": 17,
       "value": "\"86.EMV_Key_Date\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 12,
       "value": "\"86.ICC_CSN\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2388,
       "length": 12,
       "value": "\"86.ICC_ATC\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2424,
       "length": 13,
       "value": "\"86.ICC_ARPC\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2469,
       "length": 22,
       "value": "\"86.ICC_Issuer_Script\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2524,
       "length": 22,
       "value": "\"87.Authorized_Amount\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2578,
       "length": 22,
       "value": "\"87.Account_Balance_1\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/IDTech\/IDTechRequest.swift",
       "kind": "StringLiteral",
       "offset": 2632,
       "length": 22,
       "value": "\"87.Account_Balance_2\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/TransactionAuthorizationScreen\/TransactionAuthorizationViewController.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/TransactionAuthorizationScreen\/TransactionAuthorizationViewController.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 14,
       "value": "\"Canceling...\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1373,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 1392,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/FrameCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 1481,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/IDType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/IDType.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 6,
       "value": "\"sale\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 14,
       "value": "\"saleResponse\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 8,
       "value": "\"refund\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 288,
       "length": 16,
       "value": "\"refundResponse\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 6,
       "value": "\"void\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 14,
       "value": "\"voidResponse\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 14,
       "value": "\"verification\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 22,
       "value": "\"verificationResponse\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 584,
       "length": 9,
       "value": "\"balance\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 17,
       "value": "\"balanceResponse\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 12,
       "value": "\"cancelSale\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TxnTypes.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 20,
       "value": "\"cancelSaleResponse\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 394,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 1882,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 2727,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 3328,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PEPaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 4045,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 374,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 481,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/TransactionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 606,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckEmitter.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckEmitter.swift",
       "kind": "BooleanLiteral",
       "offset": 3788,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "BooleanLiteral",
       "offset": 227,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "Array",
       "offset": 398,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 38,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "StringLiteral",
       "offset": 601,
       "length": 1,
       "value": "\" (Error: \""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 1,
       "value": "\")\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 38,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 1,
       "value": "\" (Error: \""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEStatic.swift",
       "kind": "StringLiteral",
       "offset": 753,
       "length": 1,
       "value": "\")\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 256,
+      "offset": 328,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 362,
+      "offset": 257,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
+      "kind": "Array",
+      "offset": 542,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/UIHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 645,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1076,
       "length": 9,
       "value": "\"Upgrade\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1122,
       "length": 11,
       "value": "\"websocket\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1170,
       "length": 6,
       "value": "\"Host\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1213,
       "length": 12,
       "value": "\"Connection\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1262,
       "length": 9,
       "value": "\"Upgrade\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1308,
       "length": 24,
       "value": "\"Sec-WebSocket-Protocol\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 23,
       "value": "\"Sec-WebSocket-Version\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1429,
       "length": 4,
       "value": "\"13\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1470,
       "length": 26,
       "value": "\"Sec-WebSocket-Extensions\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1533,
       "length": 19,
       "value": "\"Sec-WebSocket-Key\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1589,
       "length": 8,
       "value": "\"Origin\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "StringLiteral",
       "offset": 1634,
       "length": 22,
       "value": "\"Sec-WebSocket-Accept\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1693,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/HTTPHandler.swift",
       "kind": "Array",
       "offset": 1733,
       "length": 16,
       "value": "[\"wss\", \"https\"]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "IntegerLiteral",
       "offset": 3044,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "StringLiteral",
       "offset": 3079,
       "length": 24,
       "value": "\"SocketIOClient{\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "StringLiteral",
       "offset": 3101,
       "length": 1,
       "value": "\"}\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "BooleanLiteral",
       "offset": 5832,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "BooleanLiteral",
       "offset": 11553,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "BooleanLiteral",
       "offset": 11587,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClient.swift",
       "kind": "IntegerLiteral",
       "offset": 14194,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 943,
       "length": 4,
       "value": "0x80"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 978,
       "length": 4,
       "value": "0x0F"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1013,
       "length": 4,
       "value": "0x70"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1048,
       "length": 4,
       "value": "0x40"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1083,
       "length": 4,
       "value": "0x80"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1118,
       "length": 4,
       "value": "0x7F"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1153,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1250,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1289,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1328,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1367,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1428,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1488,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1527,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1566,
       "length": 4,
       "value": "1009"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1625,
       "length": 3,
       "value": "0x0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1650,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1677,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1733,
       "length": 3,
       "value": "0x8"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1753,
       "length": 3,
       "value": "0x9"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1773,
       "length": 3,
       "value": "0xA"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "IntegerLiteral",
       "offset": 1817,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "StringLiteral",
       "offset": 2548,
       "length": 31,
       "value": "\"com.vluxe.starscream.wsframer\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "Array",
       "offset": 2593,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "BooleanLiteral",
       "offset": 2708,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/Framer.swift",
       "kind": "BooleanLiteral",
       "offset": 2776,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 1404,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "StringLiteral",
       "offset": 1440,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "StringLiteral",
       "offset": 1493,
       "length": 33,
       "value": "\"com.vluxe.starscream.writequeue\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 1577,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 1606,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 1643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Engine\/WSEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 1731,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Interfaces\/PEDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Interfaces\/PEDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 259,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Interfaces\/PEDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Interfaces\/PEDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Interfaces\/PEDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Interfaces\/PEDevice.swift",
       "kind": "Array",
       "offset": 334,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckManager.swift",
       "kind": "StringLiteral",
       "offset": 1346,
       "length": 8,
       "value": "\"NO ACK\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckManager.swift",
       "kind": "IntegerLiteral",
       "offset": 2342,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOStatus.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1510,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOStatus.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1593,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOStatus.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1665,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Sandbox.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Sandbox.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 23,
       "value": "\"console.payengine.dev\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Sandbox.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Sandbox.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 18,
       "value": "\"ws.payengine.dev\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 22,
       "value": "\"console.payengine.co\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Production.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 17,
       "value": "\"ws.payengine.co\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 15,
       "value": "\"transactionId\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 16,
       "value": "\"dispute_status\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1084,
       "length": 12,
       "value": "\"is_offline\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1142,
       "length": 12,
       "value": "\"fee_amount\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1180,
       "length": 12,
       "value": "\"net_amount\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1235,
       "length": 11,
       "value": "\"card_type\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 8,
       "value": "\"last_4\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 13,
       "value": "\"host_report\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1343,
       "length": 13,
       "value": "\"kount_score\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1386,
       "length": 16,
       "value": "\"payment_method\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1467,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1505,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1544,
       "length": 13,
       "value": "\"external_id\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 15,
       "value": "\"customer_name\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1669,
       "length": 20,
       "value": "\"customer_main_name\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/Transaction.swift",
       "kind": "StringLiteral",
       "offset": 1716,
       "length": 13,
       "value": "\"refund_type\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1341,
       "length": 3,
       "value": "999"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1373,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1403,
       "length": 3,
       "value": "902"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1428,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1452,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 1481,
       "length": 3,
       "value": "490"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 2780,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 2796,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 2810,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 2825,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 2845,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 2859,
       "length": 7,
       "value": "6"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "Array",
       "offset": 3287,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "Array",
       "offset": 6759,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "Dictionary",
       "offset": 6813,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "StringLiteral",
       "offset": 6857,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 6902,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "BooleanLiteral",
       "offset": 6987,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 17311,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "IntegerLiteral",
       "offset": 18543,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "BooleanLiteral",
       "offset": 35690,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/AnyCodable\/SwiftyJSON.swift",
       "kind": "BooleanLiteral",
       "offset": 35738,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientOption.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientOption.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientOption.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientOption.swift",
       "kind": "IntegerLiteral",
       "offset": 1382,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Starscream\/WebSocket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Starscream\/WebSocket.swift",
       "kind": "BooleanLiteral",
       "offset": 3547,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 4,
       "value": "1012"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 494,
       "length": 4,
       "value": "1010"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 612,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 724,
       "length": 4,
       "value": "3001"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 849,
       "length": 4,
       "value": "3002"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 994,
       "length": 4,
       "value": "3003"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1120,
       "length": 4,
       "value": "3004"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1249,
       "length": 4,
       "value": "3005"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1349,
       "length": 4,
       "value": "3006"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1481,
       "length": 4,
       "value": "3007"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1630,
       "length": 4,
       "value": "3008"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1751,
       "length": 4,
       "value": "3009"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1877,
       "length": 4,
       "value": "3010"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 1986,
       "length": 4,
       "value": "3011"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2099,
       "length": 4,
       "value": "3012"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2208,
       "length": 4,
       "value": "3013"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2307,
       "length": 4,
       "value": "3014"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2416,
       "length": 4,
       "value": "3015"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2529,
       "length": 4,
       "value": "3016"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2664,
       "length": 4,
       "value": "3017"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2786,
       "length": 4,
       "value": "3018"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 2925,
       "length": 4,
       "value": "3019"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3069,
       "length": 4,
       "value": "3020"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3202,
       "length": 4,
       "value": "3021"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3358,
       "length": 4,
       "value": "3022"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3475,
       "length": 4,
       "value": "3023"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3605,
       "length": 4,
       "value": "3024"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3746,
       "length": 4,
       "value": "3025"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3879,
       "length": 4,
       "value": "3026"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 3996,
       "length": 4,
       "value": "3027"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 4094,
       "length": 4,
       "value": "3028"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketAnyEvent.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketAnyEvent.swift",
       "kind": "StringLiteral",
       "offset": 1539,
       "length": 69,
       "value": "\"SocketAnyEvent: Event: \""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketAnyEvent.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketAnyEvent.swift",
       "kind": "StringLiteral",
       "offset": 1571,
       "length": 5,
       "value": "\" items: \""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketAnyEvent.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketAnyEvent.swift",
       "kind": "StringLiteral",
       "offset": 1607,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 5349,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 33,
       "value": "\"application\/json; charset=utf-8\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "BooleanLiteral",
       "offset": 1510,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "IntegerLiteral",
       "offset": 5763,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "Dictionary",
       "offset": 5798,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResponse.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
       "kind": "IntegerLiteral",
       "offset": 1374,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
       "kind": "IntegerLiteral",
       "offset": 1412,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
       "kind": "IntegerLiteral",
       "offset": 1449,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
       "kind": "IntegerLiteral",
       "offset": 1489,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEnginePacketType.swift",
       "kind": "IntegerLiteral",
       "offset": 1564,
       "length": 4,
       "value": "6"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
       "kind": "StringLiteral",
       "offset": 1197,
       "length": 36,
       "value": "\"com.vluxe.starscream.networkstream\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
       "kind": "Array",
       "offset": 1247,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 1332,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 1362,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/TCPTransport.swift",
       "kind": "IntegerLiteral",
       "offset": 1711,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
       "kind": "StringLiteral",
       "offset": 1205,
       "length": 32,
       "value": "\"com.vluxe.starscream.websocket\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
       "kind": "Array",
       "offset": 1251,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 1366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 1462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Transport\/FoundationTransport.swift",
       "kind": "IntegerLiteral",
       "offset": 1875,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 648,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 669,
       "length": 13,
       "value": "\"Invalid MID\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 857,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 878,
       "length": 26,
       "value": "\"Disconnected from server\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 1140,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 36,
       "value": "\"Only iOS 17 and above is supported\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 1361,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 1382,
       "length": 27,
       "value": "\"Payment Card Reader Error\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 1574,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 1595,
       "length": 23,
       "value": "\"Initialization failed\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 1820,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 1841,
       "length": 27,
       "value": "\"Device type not supported\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 2066,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 2087,
       "length": 32,
       "value": "\"Unable to recognize USB device\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 2287,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 2308,
       "length": 32,
       "value": "\"Timed out connecting to device\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 2527,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 2548,
       "length": 21,
       "value": "\"No device connected\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 2781,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 2802,
       "length": 31,
       "value": "\"No current active transaction\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "IntegerLiteral",
       "offset": 3032,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEError.swift",
       "kind": "StringLiteral",
       "offset": 3054,
       "length": 28,
       "value": "\"Transaction is not allowed\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Framer\/FoundationHTTPServerHandler.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Framer\/FoundationHTTPServerHandler.swift",
       "kind": "StringLiteral",
       "offset": 1077,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
       "kind": "IntegerLiteral",
       "offset": 386,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
       "kind": "IntegerLiteral",
       "offset": 441,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
       "offset": 1597,
       "length": 14,
       "value": "\"SocketEngine\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
       "offset": 1713,
       "length": 32,
       "value": "\"com.socketio.engineHandleQueue\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 2399,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 2613,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 2691,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 2802,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 2947,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 3228,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 3351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 3470,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 3569,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 3677,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 3802,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
       "offset": 3973,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
       "offset": 4042,
       "length": 13,
       "value": "\"\/engine.io\/\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
       "offset": 4132,
       "length": 19,
       "value": "\"http:\/\/localhost\/\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
       "offset": 4235,
       "length": 19,
       "value": "\"http:\/\/localhost\/\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 4395,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 4736,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 4880,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 5059,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 5420,
       "length": 5,
       "value": "25000"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 5335,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 5475,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 5510,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 5582,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 5665,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/URLSesionClientCertificateHandling.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/URLSesionClientCertificateHandling.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 25,
       "value": "\"ios-client-cert.sandbox\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/URLSesionClientCertificateHandling.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/URLSesionClientCertificateHandling.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 186,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 24,
       "value": "\"KEYCHAIN_DEVICE_ID_KEY\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/DeviceUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 2498,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 608,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 730,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 842,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 949,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1070,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1177,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1308,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1429,
       "length": 4,
       "value": "1009"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 4,
       "value": "1011"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1658,
       "length": 4,
       "value": "1012"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1773,
       "length": 4,
       "value": "1010"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 1875,
       "length": 4,
       "value": "2001"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 4,
       "value": "2002"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2119,
       "length": 4,
       "value": "2003"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2251,
       "length": 4,
       "value": "2004"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2391,
       "length": 4,
       "value": "2005"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2535,
       "length": 4,
       "value": "2006"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2635,
       "length": 4,
       "value": "2007"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2770,
       "length": 4,
       "value": "2008"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 2889,
       "length": 4,
       "value": "2009"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3015,
       "length": 4,
       "value": "2010"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3130,
       "length": 4,
       "value": "2011"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3249,
       "length": 4,
       "value": "2012"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3351,
       "length": 4,
       "value": "2013"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3484,
       "length": 4,
       "value": "2014"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3590,
       "length": 4,
       "value": "2015"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3714,
       "length": 4,
       "value": "2016"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3822,
       "length": 4,
       "value": "2017"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 3955,
       "length": 4,
       "value": "2018"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4083,
       "length": 4,
       "value": "2019"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4197,
       "length": 4,
       "value": "2020"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4318,
       "length": 4,
       "value": "2021"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4466,
       "length": 4,
       "value": "2022"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4607,
       "length": 4,
       "value": "2023"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4737,
       "length": 4,
       "value": "2024"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4845,
       "length": 4,
       "value": "2025"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 4959,
       "length": 4,
       "value": "2026"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 5071,
       "length": 4,
       "value": "2027"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Errors\/PEProcessingError.swift",
       "kind": "IntegerLiteral",
       "offset": 5166,
       "length": 4,
       "value": "2028"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "BooleanLiteral",
       "offset": 494,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 50,
       "value": "\"Accept contactless payments with only an iPhone.\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 11,
       "value": "\"tutorial1\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "BooleanLiteral",
       "offset": 670,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 704,
       "length": 258,
       "value": "\"With Tap to Pay on iPhone and the PayEngine app, you can accept in-person, contactless payments, right on your iPhone - from physical debit and credit cards, to Apple Pay and other digital wallets - no extra hardware needed. It’s easy, secure and private\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 60,
       "value": "\"How to accept contactless cards with Tap to Pay on iPhone.\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 1077,
       "length": 11,
       "value": "\"tutorial2\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "BooleanLiteral",
       "offset": 1121,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 1154,
       "length": 336,
       "value": "\"1. Enter the purchase amount in your iPad or Web POS app and check out with Tap to Pay on iPhone.\n              \n2. Present your iPhone to the customer.\n\n3. Your customer holds their card horizontally at the top of your iPhone, over the contactless symbol.\n\n4. When you see the “done” checkmark, the transaction is complete.\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 1518,
       "length": 78,
       "value": "\"How to accept Apple Pay and other digital wallets with Tap to Pay on iPhone.\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 1623,
       "length": 11,
       "value": "\"tutorial3\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "BooleanLiteral",
       "offset": 1667,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/UI\/MerchantTutorial\/MerchantTutorial.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 302,
       "value": "\"1. Enter the purchase amount in your iPad or Web POS app and check out with Tap to Pay on iPhone.\n\n2. Present your iPhone to the customer.\n\n3. Your customer holds their device near your iPhone, over the contactless symbol.\n\n4. When you see the “done” checkmark, the transaction is complete.\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/PaginationMeta.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/PaginationMeta.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 14,
       "value": "\"current_page\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/PaginationMeta.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/PaginationMeta.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 13,
       "value": "\"total_pages\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Security\/FoundationSecurity.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Security\/FoundationSecurity.swift",
       "kind": "BooleanLiteral",
       "offset": 1064,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Security\/FoundationSecurity.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Security\/FoundationSecurity.swift",
       "kind": "BooleanLiteral",
       "offset": 1108,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Security\/Security.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Security\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Security\/Security.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Security\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 999,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
       "offset": 496,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "IntegerLiteral",
       "offset": 703,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
       "offset": 787,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "StringLiteral",
       "offset": 1361,
       "length": 26,
       "value": "\"Sec-WebSocket-Extensions\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "BooleanLiteral",
       "offset": 1487,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "BooleanLiteral",
       "offset": 1522,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "IntegerLiteral",
       "offset": 3889,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "IntegerLiteral",
       "offset": 3899,
       "length": 6,
       "value": "0x2000"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "BooleanLiteral",
       "offset": 3944,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "IntegerLiteral",
       "offset": 6462,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "IntegerLiteral",
       "offset": 6472,
       "length": 6,
       "value": "0x2000"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Compression\/WSCompression.swift",
       "kind": "BooleanLiteral",
       "offset": 6517,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 15,
       "value": "\"customer_name\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
       "kind": "StringLiteral",
       "offset": 421,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Transaction\/TransactionData.swift",
       "kind": "StringLiteral",
       "offset": 460,
       "length": 14,
       "value": "\"order_number\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Util\/SocketLogger.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Util\/SocketLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 2846,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 2177,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
       "offset": 2810,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 3489,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 3532,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 3584,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 3883,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
       "offset": 4242,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 13965,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Dictionary",
       "offset": 14000,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
       "offset": 14381,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
       "offset": 14425,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
       "offset": 14531,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
       "offset": 14564,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
       "offset": 14591,
       "length": 18,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
       "offset": 14608,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientConfiguration.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Client\/SocketIOClientConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 3715,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "StringLiteral",
       "offset": 1363,
       "length": 14,
       "value": "\"SocketPacket\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 2738,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 2775,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 5482,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 5528,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 5567,
       "length": 3,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 5606,
       "length": 5,
       "value": "4"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 5654,
       "length": 11,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "IntegerLiteral",
       "offset": 5706,
       "length": 9,
       "value": "6"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Parse\/SocketPacket.swift",
       "kind": "BooleanLiteral",
       "offset": 6412,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
       "kind": "IntegerLiteral",
       "offset": 187,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PETransactionType.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 34,
       "value": "\"sandbox-staging-ws.payengine.dev\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Flavors\/Test.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 34,
       "value": "\"sandbox-staging-ws.payengine.dev\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 43,
       "value": "\"com.vluxe.starscream.server.networkstream\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
       "kind": "Array",
       "offset": 1426,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
       "kind": "BooleanLiteral",
       "offset": 3634,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/Starscream\/Server\/WebSocketServer.swift",
       "kind": "BooleanLiteral",
       "offset": 3717,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "StringLiteral",
       "offset": 2298,
       "length": 15,
       "value": "\"SocketManager\""
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3453,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3953,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "IntegerLiteral",
       "offset": 4061,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "IntegerLiteral",
       "offset": 4170,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "FloatLiteral",
       "offset": 4271,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4479,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "IntegerLiteral",
       "offset": 4527,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5031,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5130,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5163,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
+      "filePath": "\/Users\/saim\/Documents\/PE\/SoftPOSPackage\/PEDevicePaymentSDK\/SocketIO\/Manager\/SocketManager.swift",
       "kind": "Array",
       "offset": 5465,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/trinvh\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-aczdlwwhpqearoasmftacjlqinic\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/saim\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-bczahqxxcrcvksfnrzsgtkijzeea\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 729,
       "length": 10,
       "value": "\"congrats\""
     },
     {
-      "filePath": "\/Users\/trinvh\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-aczdlwwhpqearoasmftacjlqinic\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/saim\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-bczahqxxcrcvksfnrzsgtkijzeea\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 11,
       "value": "\"tutorial1\""
     },
     {
-      "filePath": "\/Users\/trinvh\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-aczdlwwhpqearoasmftacjlqinic\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/saim\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-bczahqxxcrcvksfnrzsgtkijzeea\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 11,
       "value": "\"tutorial2\""
     },
     {
-      "filePath": "\/Users\/trinvh\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-aczdlwwhpqearoasmftacjlqinic\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/saim\/Library\/Developer\/Xcode\/DerivedData\/PEDevicePayment-bczahqxxcrcvksfnrzsgtkijzeea\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PEDevicePaymentSDK\/IntermediateBuildFilesPath\/PEDevicePaymentSDK.build\/Release-iphoneos\/PEDevicePaymentSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1145,
       "length": 11,
