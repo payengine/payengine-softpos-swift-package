@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PEDevicePaymentSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
@@ -69,6 +69,7 @@ import zlib
   final public let transactionAmount: Foundation.Decimal
   final public let currencyCode: Swift.String
   public var transactionData: PEDevicePaymentSDK.PEJSON?
+  @objc public var idempotentKey: Swift.String?
   public init(transactionAmount: Foundation.Decimal, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
   public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
   @objc public init(transactionAmount: Foundation.Decimal, currencyCode: Swift.String = "USD")
@@ -112,7 +113,9 @@ import zlib
 }
 @objc public class PETransactionResultViewController : ObjectiveC.NSObject {
   final public let onDismissed: () -> Swift.Void
-  public init(onDismissed: @escaping () -> Swift.Void)
+  public var inconclusiveTitle: Swift.String?
+  public var inconclusiveMessage: Swift.String?
+  public init(onDismissed: @escaping () -> Swift.Void, inconclusiveTitle: Swift.String? = nil, inconclusiveMessage: Swift.String? = nil)
   @objc deinit
 }
 @objc public protocol PEDevice {
@@ -551,6 +554,7 @@ extension Swift.Encodable {
   @objc var internalTransactionId: Swift.String? { get }
   @objc var hostReport: PEDevicePaymentSDK.PaymentResultHostReport? { get }
   @objc var error: PEDevicePaymentSDK.PECardReaderError? { get }
+  @objc var isInconclusive: Swift.Bool { get }
 }
 extension PEDevicePaymentSDK.PEPaymentResult {
   public func asCodable() -> PEDevicePaymentSDK.TTPPaymentResult
@@ -569,11 +573,17 @@ extension PEDevicePaymentSDK.PEPaymentResult {
   @objc public var internalTransactionId: Swift.String?
   @objc public var hostReport: PEDevicePaymentSDK.PaymentResultHostReport?
   @objc public var error: PEDevicePaymentSDK.PECardReaderError?
+  @objc public var isInconclusive: Swift.Bool {
+    get
+  }
   required convenience public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class PECardReaderError : ObjectiveC.NSObject, Foundation.LocalizedError {
+  public var isInconclusive: Swift.Bool {
+    get
+  }
   public var errorDescription: Swift.String? {
     get
   }
