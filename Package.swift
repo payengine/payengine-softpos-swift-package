@@ -6,24 +6,38 @@ import PackageDescription
 let package = Package(
     name: "PayEngineSoftPOSPackage",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v15),
     ],
     products: [
-        
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "PayEngineSoftPOSPackage",
-            targets: ["PayEngineSoftPOSPackage", "PEDevicePaymentSDK"]),
+            targets: ["PayEngineSoftPOSPackage", "PEDevicePaymentSDK"]
+        ),
+    ],
+    dependencies: [
+        // Add Datadog SDK here
+        .package(
+            url: "https://github.com/DataDog/dd-sdk-ios.git",
+            .upToNextMajor(from: "3.0.0")
+        )
     ],
     targets: [
-        .binaryTarget(name: "PEDevicePaymentSDK", path: "./Frameworks/PEDevicePaymentSDK.xcframework"),
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        .binaryTarget(
+            name: "PEDevicePaymentSDK",
+            path: "./Frameworks/PEDevicePaymentSDK.xcframework"
+        ),
+
+        // Wrapper target that links the binary framework + Datadog
         .target(
             name: "PayEngineSoftPOSPackage",
             dependencies: [
                 "PEDevicePaymentSDK",
-            ]),
-
+                
+                // Add specific products from the Datadog package
+                .product(name: "DatadogCore", package: "dd-sdk-ios"),
+                .product(name: "DatadogLogs", package: "dd-sdk-ios"),
+                .product(name: "DatadogRUM", package: "dd-sdk-ios"),
+            ]
+        )
     ]
 )
