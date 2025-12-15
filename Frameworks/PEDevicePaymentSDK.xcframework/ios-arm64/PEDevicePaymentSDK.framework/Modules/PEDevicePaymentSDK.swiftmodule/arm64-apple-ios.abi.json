@@ -25822,7 +25822,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/RemoteLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 308,
+      "offset": 326,
       "length": 5,
       "value": "false"
     },
