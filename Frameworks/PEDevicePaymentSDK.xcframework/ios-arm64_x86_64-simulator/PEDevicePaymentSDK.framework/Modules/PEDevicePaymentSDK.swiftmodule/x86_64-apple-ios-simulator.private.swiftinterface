@@ -4,6 +4,9 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
 import CryptoKit
+import DatadogCore
+import DatadogLogs
+import DatadogRUM
 import DeveloperToolsSupport
 import Dispatch
 import Foundation
@@ -518,7 +521,7 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@objc public enum DeviceType : Swift.Int, Swift.Decodable, Swift.Encodable {
+@objc public enum DeviceType : Swift.Int, Swift.Codable {
   case BT
   case USB
   case MOBILE

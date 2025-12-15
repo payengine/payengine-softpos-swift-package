@@ -2590,6 +2590,37 @@
       },
       {
         "kind": "Import",
+        "name": "DatadogCore",
+        "printedName": "DatadogCore",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DatadogLogs",
+        "printedName": "DatadogLogs",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DatadogRUM",
+        "printedName": "DatadogRUM",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PEDevicePaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -22127,6 +22158,35 @@
             "printedName": "MutableDataProtocol",
             "usr": "s:10Foundation19MutableDataProtocolP",
             "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DatadogExtended",
+            "printedName": "DatadogExtended",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedType",
+                "printedName": "ExtendedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15DatadogInternal0A8ExtendedP",
+            "mangledName": "$s15DatadogInternal0A8ExtendedP"
           }
         ]
       },
@@ -23241,6 +23301,40 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DatadogExtended",
+            "printedName": "DatadogExtended",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedType",
+                "printedName": "ExtendedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[τ_0_0 : τ_0_1]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15DatadogInternal0A8ExtendedP",
+            "mangledName": "$s15DatadogInternal0A8ExtendedP"
           }
         ]
       },
@@ -23757,6 +23851,28 @@
             ],
             "usr": "s:7SwiftUI10AnimatableP",
             "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DatadogExtended",
+            "printedName": "DatadogExtended",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedType",
+                "printedName": "ExtendedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15DatadogInternal0A8ExtendedP",
+            "mangledName": "$s15DatadogInternal0A8ExtendedP"
           }
         ]
       },
@@ -25704,6 +25820,13 @@
       "value": "2"
     },
     {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Utils\/RemoteLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 308,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/SocketIO\/Ack\/SocketAckEmitter.swift",
       "kind": "BooleanLiteral",
       "offset": 3788,
@@ -26784,7 +26907,7 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/PaymentResult.swift",
       "kind": "StringLiteral",
-      "offset": 5349,
+      "offset": 5345,
       "length": 5,
       "value": "\"USD\""
     },
@@ -26819,14 +26942,14 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 7674,
+      "offset": 9898,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Services\/PEAPIService.swift",
       "kind": "Dictionary",
-      "offset": 7709,
+      "offset": 9933,
       "length": 3,
       "value": "[]"
     },
@@ -27113,14 +27236,14 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
       "kind": "IntegerLiteral",
-      "offset": 386,
+      "offset": 373,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Models\/Enums\/DeviceType.swift",
       "kind": "IntegerLiteral",
-      "offset": 441,
+      "offset": 428,
       "length": 6,
       "value": "2"
     },
@@ -27785,35 +27908,42 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
-      "offset": 496,
+      "offset": 521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 703,
+      "offset": 728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "BooleanLiteral",
-      "offset": 787,
+      "offset": 812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 13737,
+      "offset": 14253,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 18072,
+      "offset": 18683,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/Implementations\/PEDeviceTTP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25514,
       "length": 1,
       "value": "0"
     },
@@ -27939,98 +28069,98 @@
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 2810,
+      "offset": 2843,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3489,
+      "offset": 3522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3532,
+      "offset": 3565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 3584,
+      "offset": 3617,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3883,
+      "offset": 3916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Array",
-      "offset": 4242,
+      "offset": 4275,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13965,
+      "offset": 15896,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "Dictionary",
-      "offset": 14000,
+      "offset": 15931,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14381,
+      "offset": 16312,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14425,
+      "offset": 16356,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14531,
+      "offset": 16462,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14564,
+      "offset": 16495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14591,
+      "offset": 16522,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/M2-500\/Workspaces\/PayEngine\/pf-device-payment-ios\/PEDevicePaymentSDK\/PEDevicePaymentSDK\/PEPaymentDevice.swift",
       "kind": "StringLiteral",
-      "offset": 14608,
+      "offset": 16539,
       "length": 1,
       "value": "\"\""
     },
