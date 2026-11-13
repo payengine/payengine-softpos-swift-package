@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name PEDevicePaymentSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios16.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PEDevicePaymentSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import CommonCrypto
 import CryptoKit
 import DatadogCore
@@ -49,6 +49,7 @@ import zlib
   @objc func onConnected(device: any PEDevicePaymentSDK.PEDevice)
   @objc func onConnectionFailed(device: any PEDevicePaymentSDK.PEDevice, error: any Swift.Error)
   @objc optional func onCardRead(success: Swift.Bool)
+  @objc optional func onCardRead(card: PEDevicePaymentSDK.PECardInfo, handler: PEDevicePaymentSDK.PESurchargeHandler)
   @objc optional func onDiscoveringDevice(_ searching: Swift.Bool)
   @objc optional func onDeviceDiscovered(_ device: PEDevicePaymentSDK.DiscoverableDevice)
   @objc optional func onLcdConfirmation(_ message: Swift.String)
@@ -72,11 +73,38 @@ import zlib
   final public let transactionAmount: Foundation.Decimal
   final public let currencyCode: Swift.String
   public var transactionData: PEDevicePaymentSDK.PEJSON?
+  @objc public func setSurchargeAddress(_ address: [Swift.String : Any]?)
+  @objc public func setNmiSurchargeGatewayId(_ gatewayId: Swift.String?)
+  @objc public func setSurchargeTaxRate(_ rate: Foundation.NSDecimalNumber?)
   @objc public var idempotentKey: Swift.String?
+  public var surchargeAmount: Foundation.Decimal?
+  public var surchargePercentage: Foundation.Decimal?
+  @objc public var surchargeBypass: Swift.Bool
+  @objc public var skipSurchargeOnTax: Swift.Bool
+  @objc(surchargeAmount) public var surchargeAmountNumber: Foundation.NSDecimalNumber? {
+    @objc get
+    @objc set
+  }
+  @objc(surchargePercentage) public var surchargePercentageNumber: Foundation.NSDecimalNumber? {
+    @objc get
+    @objc set
+  }
+  @objc public var alert: PEDevicePaymentSDK.PEAlert?
   public init(transactionAmount: Foundation.Decimal, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
   public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, transactionData: PEDevicePaymentSDK.PEJSON? = nil, currencyCode: Swift.String = "USD")
   @objc public init(transactionAmount: Foundation.Decimal, currencyCode: Swift.String = "USD")
   @objc public init(transactionType: PEDevicePaymentSDK.PETransactionType, transactionAmount: Foundation.Decimal, originalTransactionId: Swift.String, currencyCode: Swift.String = "USD")
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public class PEAlert : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let title: Swift.String?
+  @objc final public let message: Swift.String
+  @objc public init(title: Swift.String? = nil, message: Swift.String)
+  @objc public var displayMessage: Swift.String {
+    @objc get
+  }
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -95,8 +123,8 @@ import zlib
   case OK
   case Cancel
   public static func == (a: PEDevicePaymentSDK.LcdSelection, b: PEDevicePaymentSDK.LcdSelection) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -139,6 +167,49 @@ import zlib
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum PESurchargeError : Swift.Int, Swift.Error {
+  case fixedSurchargeAlreadySet = 1
+  case noSurchargeCeilingDeclared
+  case exceedsDeclaredCeiling
+  case negativeAmount
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class PESurchargeHandler : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  @objc public var maxAllowedSurcharge: Foundation.NSDecimalNumber? {
+    @objc get
+  }
+  @objc(provideSurcharge:error:) public func provideSurchargeNumber(_ amount: Foundation.NSDecimalNumber) throws
+  public func provideSurcharge(_ amount: Foundation.Decimal) throws
+  @objc public func bypassSurcharge()
+  @objc public func useDefaultSurcharge()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PECardInfo : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  @objc final public let bin: Swift.String?
+  @objc final public let last4: Swift.String?
+  @objc deinit
+}
+@objc public enum PESurchargeStatus : Swift.Int {
+  case unknown = 0
+  case applied = 1
+  case capped = 2
+  case notEligible = 3
+  case bypassed = 4
+  case eligibilityUnknown = 5
+  case declined = 6
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public struct PEConfig {
   public let environment: any PEDevicePaymentSDK.IPEEnvironment
@@ -537,6 +608,21 @@ extension PEDevicePaymentSDK.PEJSON : Swift.Codable {
 extension Swift.Encodable {
   public func toJSON() -> Swift.String?
 }
+public let PEDevicePaymentErrorDomain: Swift.String
+@objc public enum PEErrorCode : Swift.Int {
+  case invalidMerchantID = 1000
+  case disconnected = 1001
+  case versionNotSupported = 1002
+  case initializationFailed = 1003
+  case connectionTimeout = 1006
+  case notConnected = 1007
+  case serverError = 1011
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers @objc public class DiscoverableDevice : ObjectiveC.NSObject, Swift.Decodable {
   final public let id: Swift.String
   final public let name: Swift.String
@@ -550,6 +636,14 @@ extension Swift.Encodable {
   @objc var responseCode: Swift.String? { get }
   @objc var responseMessage: Swift.String? { get }
   @objc var amount: Swift.String? { get }
+  @objc var surchargeAmount: Swift.String? { get }
+  @objc var surchargeStatus: PEDevicePaymentSDK.PESurchargeStatus { get }
+  @objc var surchargeBypass: Swift.Bool { get }
+  @objc var surchargeBase: Swift.String? { get }
+  @objc var surchargeAppliedPercentage: Swift.String? { get }
+  @objc var salesTax: Swift.String? { get }
+  @objc var surchargeTaxRate: Swift.String? { get }
+  @objc var surchargeTaxAmount: Swift.String? { get }
   @objc var currencyCode: Swift.String? { get }
   @objc var gatewayId: Swift.String? { get }
   @objc var deviceId: Swift.String? { get }
@@ -569,6 +663,14 @@ extension PEDevicePaymentSDK.PEPaymentResult {
   @objc public var responseCode: Swift.String?
   @objc public var responseMessage: Swift.String?
   @objc public var amount: Swift.String?
+  @objc public var surchargeAmount: Swift.String?
+  @objc public var surchargeStatus: PEDevicePaymentSDK.PESurchargeStatus
+  @objc public var surchargeBypass: Swift.Bool
+  @objc public var surchargeBase: Swift.String?
+  @objc public var salesTax: Swift.String?
+  @objc public var surchargeTaxAmount: Swift.String?
+  @objc public var surchargeAppliedPercentage: Swift.String?
+  @objc public var surchargeTaxRate: Swift.String?
   @objc public var currencyCode: Swift.String?
   @objc public var gatewayId: Swift.String?
   @objc public var deviceId: Swift.String?
@@ -641,6 +743,7 @@ extension PEDevicePaymentSDK.PEPaymentDevice : PEDevicePaymentSDK.PEDeviceDelega
   @objc dynamic public func onConnected(device: any PEDevicePaymentSDK.PEDevice)
   @objc dynamic public func onConnectionFailed(device: any PEDevicePaymentSDK.PEDevice, error: any Swift.Error)
   @objc dynamic public func onCardRead(success: Swift.Bool)
+  @objc dynamic public func onCardRead(card: PEDevicePaymentSDK.PECardInfo, handler: PEDevicePaymentSDK.PESurchargeHandler)
   @objc dynamic public func onDiscoveringDevice(_ searching: Swift.Bool)
   @objc dynamic public func onDeviceDiscovered(_ device: PEDevicePaymentSDK.DiscoverableDevice)
   @objc dynamic public func onLcdConfirmation(_ message: Swift.String)
@@ -670,6 +773,12 @@ extension PEDevicePaymentSDK.TransactionMode : Swift.Hashable {}
 extension PEDevicePaymentSDK.TransactionMode : Swift.RawRepresentable {}
 extension PEDevicePaymentSDK.LcdSelection : Swift.Equatable {}
 extension PEDevicePaymentSDK.LcdSelection : Swift.Hashable {}
+extension PEDevicePaymentSDK.PESurchargeError : Swift.Equatable {}
+extension PEDevicePaymentSDK.PESurchargeError : Swift.Hashable {}
+extension PEDevicePaymentSDK.PESurchargeError : Swift.RawRepresentable {}
+extension PEDevicePaymentSDK.PESurchargeStatus : Swift.Equatable {}
+extension PEDevicePaymentSDK.PESurchargeStatus : Swift.Hashable {}
+extension PEDevicePaymentSDK.PESurchargeStatus : Swift.RawRepresentable {}
 extension PEDevicePaymentSDK.PEJSONError : Swift.Equatable {}
 extension PEDevicePaymentSDK.PEJSONError : Swift.Hashable {}
 extension PEDevicePaymentSDK.PEJSONError : Swift.RawRepresentable {}
@@ -681,6 +790,9 @@ extension PEDevicePaymentSDK.writingOptionsKeys : Swift.Hashable {}
 extension PEDevicePaymentSDK.DeviceType : Swift.Equatable {}
 extension PEDevicePaymentSDK.DeviceType : Swift.Hashable {}
 extension PEDevicePaymentSDK.DeviceType : Swift.RawRepresentable {}
+extension PEDevicePaymentSDK.PEErrorCode : Swift.Equatable {}
+extension PEDevicePaymentSDK.PEErrorCode : Swift.Hashable {}
+extension PEDevicePaymentSDK.PEErrorCode : Swift.RawRepresentable {}
 extension PEDevicePaymentSDK.PETransactionType : Swift.Equatable {}
 extension PEDevicePaymentSDK.PETransactionType : Swift.Hashable {}
 extension PEDevicePaymentSDK.PETransactionType : Swift.RawRepresentable {}

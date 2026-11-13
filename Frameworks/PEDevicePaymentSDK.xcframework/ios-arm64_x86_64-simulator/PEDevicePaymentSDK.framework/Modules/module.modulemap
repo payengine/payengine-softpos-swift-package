@@ -7,5 +7,4 @@ framework module PEDevicePaymentSDK {
 
 module PEDevicePaymentSDK.Swift {
   header "PEDevicePaymentSDK-Swift.h"
-  requires objc
 }
